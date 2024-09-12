@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglo 3 - Cuadrado Mágico</title>
+    <script>
+        function Generar() 
+        {
+            //Esta instruccion borra las columnas y renglones de la tabla
+            document.getElementById("cuadrado").innerHTML = "";
+
+            //Agregamos renglones y columnas
+            var tabla = document.getElementById("cuadrado");
+            var lado = parseInt(document.getElementById("lados").value);
+            var celda = "";
+            var nuevaFila = "";
+            r = 0;
+            c = 0;
+            for (r = 0; r < lado; r++) 
+            {
+                nuevaFila = tabla.insertRow(-1);
+                for (c = 0; c < lado; c++) {
+                     celda = nuevaFila.insertCell(-1);
+                
+                    var entrada = document.createElement("input");
+                    entrada.setAttribute("type", "number");
+                    entrada.setAttribute("value", Aleatorio());
+                    entrada.setAttribute("required", "required");
+                    entrada.setAttribute("style", "width:50px; color:#000000; font-weight: bold;");
+                    celda.appendChild(entrada);
+
+                }
+                var celda = nuevaFila.insertCell(-1);
+                celda.innerHTML = "suma";        
+            }
+            nuevaFila = tabla.insertRow(-1);
+            for (let c = 0; c < lado + 1; c++) 
+            {
+                celda = nuevaFila.insertCell(-1);
+                celda.innerHTML = "suma";
+            }    
+            tabla.rows[lado].cells[c-1].innerHTML = "diagonal";     
+        }
+
+        function Aleatorio() 
+        {
+            return Math.floor(Math.random() * 100);
+        }
+
+        function ejemploMagico() 
+        {
+            var tabla = document.getElementById("cuadrado");
+            for (let r = 0; r < document.getElementById("lados").value; r++) 
+            {
+                for (let c = 0; c < document.getElementById("lados").value; c++) 
+                {
+                    tabla.rows[r].cells[c].querySelector("input").value = document.getElementById("lados").value;
+
+                }
+
+            }
+            document.getElementById("verificar").innerHTML = "Si soy un cuadrado Mágico."
+            document.getElementById("verificar").style = "color: blue;";
+        }
+
+        function ejemploCuadrado() 
+        {
+            var tabla = document.getElementById("cuadrado");
+            var r = 0;
+            var c = 0;
+            for (r = 0; r < document.getElementById("lados").value; r++) 
+            {
+                for (c = 0; c < document.getElementById("lados").value; c++) 
+                {
+                    tabla.rows[r].cells[c].querySelector("input").value = Aleatorio();
+
+                }
+            }
+            tabla.rows[r - 1].cells[c - 1].querySelector('input').value = -1;
+            document.getElementById("verificar").innerHTML= "No soy un cuadrado Mágico."
+            document.getElementById("verificar").style = "color: crimson;";
+        }
+    </script>
+</head>
+<body onload = "Generar()" bgcolor="#F5F5DC">
+    <p><a href = "index.html" >Regresar al menú</a></p>
+    <p>
+        <h1>Arreglo 3 - Cuadrado Mágico</h1>
+        <h4>Un cuadrado mágico es una tabla de grado primario donde se dispone de una serie de números enteros
+             en un cuadrado o matriz de forma tal que la suma de los números por columnas, filas y diagonales
+              principales sea la misma.</h4>
+    </p>
+    <p>Seleccione el tamaño del cuadrado:
+        <select name="" id="lados" onchange="Generar();">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <input type="button" value="Generar" onclick="Generar();">
+        <input type="button" value="Calcular">
+        <input type="button" value="Ejemplo de cuadrado" onclick="ejemploCuadrado();">
+        <input type="button" value="Ejemplo de cuadrado magico" onclick="ejemploMagico();">
+    </p>
+
+    <table border="0.5" id="cuadrado" style="border-collapse: collapse;"></table>
+
+    <h1  id = "verificar" style="color: red;">No es Cuadrado Mágico</h1>
+</body>
+</html>

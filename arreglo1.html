@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglo 1</title>
+</head>
+
+<script src="js/arreglo1.js">
+
+</script>
+    
+</head>
+<body bgcolor = "#F5F5DC">
+    <p>
+        <a 
+            href = "index.html">Regresar al menú
+        </a>
+    </p>
+
+    <h1>Arreglo 1</h1>
+    <h4>Capture e imprima un arreglo de 10 elementos de tipo entero. El arreglo se debe imprimir de forma horizontal y
+        vertical.
+        Muestre el índice de cada elemento. La captua de elementos se debe cancelar al introducir el ultimo documentos.
+        Incluya un boton de reinicio.</h4>
+
+        <form action="javascript:Capturar()">
+            <p style="display: inline;" id="arreglo"> Capture el elemento [0]</p> 
+            <input type="number" id="dato" required onkeydown="if(event.key==='.'){event.preventDefault();}"> 
+            <input type="submit" class="b" value="Capturar" id="agarrar"> 
+            <input type="button" value="Reiniciar" onclick="Reiniciar()">
+        </form>
+        <table border="1">
+            <tr id="renglon1"></tr>
+            <tr id="renglon2"></tr>
+        </table> <br> <br>
+    
+        <table id="tablaVertical" border="1"><td id="columna1"></td></table>
+        <p id="error"></p>
+    
+    </body>
+    </html>
