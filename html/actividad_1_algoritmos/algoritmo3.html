@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo 3</title>
+    <script>
+        function cubo() {
+            var naturales = parseInt(document.getElementById("nat").value);
+            var resultado = "Resultado <br>";
+            if(!isNaN(document.getElementById("nat").value) && naturales > 1){
+                for (let i = 2; i <= naturales; i++) {
+                    if (i % 2 == 0) {
+                        resultado += `${i} al cubo es: ${i*i*i} <br>`
+                    }
+                    
+                    
+                }
+                document.getElementById("resultado").innerHTML = resultado;
+            }else{
+                document.getElementById("resultado").innerHTML = `Existe un error en el tipo de dato, el número es negativo y/o tiene que ser mayor a 1`;
+            }
+        }
+    </script>
+</head>
+<body bgcolor="#D4D4BC">
+    <p><a href = ../../index.html>Regresar al menú</a></p>
+    <p>
+        <h1>
+            Algoritmo 3
+        </h1>
+        <h4>
+            Escribir un programa que muestre en pantalla los cinco primeros números naturales
+            pares elevados al cubo.
+        </h4>
+    </p>
+
+    <p>Ejemplo: <br>
+        2 al cubo es 8 <br>
+        4 al cubo es 64 <br>
+        6 al cubo es .. <br>
+        8 al cubo es .. <br>
+        100 al cubo es ..
+    </p> 
+
+    <p>Cantidad de numeros naturales pares: <input type="text" value="2" id="nat"></p>
+    <input type="button" value="Calcular" onclick="cubo()" > <br>
+    <p id="resultado">Resultado</p>
+    <br></br>
+    <img src="https://unisonsistemas.com/alumnos/romoUrias/fundamentos/img3.jpg" alt="">
+</body>
+</html>
