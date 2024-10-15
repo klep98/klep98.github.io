@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglo 2</title>
+    <script src="./../../js/arreglo2.js"></script>
+</head>
+<body bgcolor="#D4D4BC" onload="aleatorios()">
+    <p><a href = ../../index.html >Regresar al menú</a></p>
+        <p>
+            <h1>Arreglo 2</h1>
+            <h4>Capture un arreglo de 10 elementos de tipo entero, el arreglo de forma vertical y horizontal, 
+                imprima el arreglo de forma ascendente y descendente, encuentre el elemento menor, mayor,
+                la suma, el promedio (media), la mediana y la moda.</h4>
+        </p>
+
+        <p style="display: inline;" id="posicionDisplay">Elemento [0]:</p>
+        <input type="number" id="elementoInput">
+        <input id="capturarBoton" type="button" value="Capturar" onclick="Capturar();">
+        <input type="button" value="Reiniciar" onclick="Reiniciar();">
+        <input id="generarBoton" type="button" value="Generar resultado" disabled onclick="Calcular();">
+        <p id="menorResultado"></p>
+        <p id="mayorResultado"></p>
+        <p id="sumatoriaResultado"></p>
+        <p id="promedioResultado"></p>
+        <p id="medianaResultado"></p>
+    
+        <table id="tablaHorizontal" border="1" style="border-collapse: collapse;">
+            <tr id="renglonIndice"></tr>
+            <tr id="renglonDato"></tr>
+        </table> <br>
+    
+        <table id="tablaHorizontal2" border="1" style="border-collapse: collapse;">
+            <tr id="renglonIndice2"></tr>
+            <tr id="renglonDato2"></tr>
+        </table> <br>
+    
+        <table id="tablaHorizontal3" border="1" style="border-collapse: collapse;">
+            <tr id="renglonIndice3"></tr>
+            <tr id="renglonDato3"></tr>
+        </table> <br>
+    
+        <table border="1" id="tablaVertical" style="border-collapse: collapse; display: inline;"></table>
+    
+        <table border="1" id="tablaVertical2" style="border-collapse: collapse; display: inline"></table>
+    
+        <table border="1" id="tablaVertical3" style="border-collapse: collapse; display: inline"></table>
+        
+</body>
+</html>

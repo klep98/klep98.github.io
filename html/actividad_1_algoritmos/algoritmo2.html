@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo 2</title>
+    <script>
+        function multiplos3() {
+            if(!isNaN(document.getElementById("num1").value) && !isNaN(document.getElementById("num2").value)){
+                var a = parseInt(document.getElementById("num1").value);
+                var b = parseInt(document.getElementById("num2").value);
+                var multiplos = 0;
+
+                for (let i = a; i <= b; i++) {
+                    if (i % 3 == 0) {
+                        multiplos += 1;
+                    }
+                }
+
+                if(a!=b){
+                    for (let i = a; i >= b; i--) {
+                        if (i % 3 == 0) {
+                            multiplos += 1;
+                        }
+                    }
+                }
+                document.getElementById("textoResultado").innerHTML = `Resultado: La cantidad de múltiplos de ${a} y ${b} son: <br> ${multiplos}`;
+            } else{
+                document.getElementById("textoResultado").innerHTML = `Existe un error en el tipo de dato`;
+            }
+        }
+    </script>
+</head>
+<body bgcolor="#D4D4BC">
+    <p><a href = ../../index.html>Regresar al menú</a></p>
+    <h1>
+        Algoritmo 2
+    </h1>
+    <p>
+        <h4>
+            Encontrar e imprimir la cantidad de números comprendidos entre dos enteros que son múltiplos de 3.
+        </h4>
+    </p>
+    dato 1 <input type="text" value="0" id="num1"> <br>
+    dato 2 <input type="text" value="100" id="num2"> <br><br>
+    <input type="button" value="Calcular" onclick="multiplos3()"> <br>
+    <p id="textoResultado">Resultado:</p>
+    <br></br>
+    <img src="./../../img/img2.jpg">
+
+</body>
+</html>
