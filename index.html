@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Romo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"> <!-- Incluye Montserrat con peso 600 -->
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif; /* Cambia a Montserrat */
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        .navbar {
+            background-color: rgba(51, 51, 51, 0.8);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            background-image: url('./img/peñasco.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            color: white;
+        }
+
+        .hero img {
+            max-width: 250px; 
+            height: auto;
+            border-radius: 50%;
+            border: 8px solid white; 
+        }
+
+        .hero h1 {
+            margin-top: 10px; 
+            font-size: 2.5em; 
+        }
+
+        section {
+            padding: 40px 20px; 
+        }
+
+        #fundamentos3 {
+            text-align: center; 
+        }
+
+        h1, h2, h4 {
+            font-weight: 600; /* Aplica peso semibold a los encabezados */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Caleb Romo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#fundamentos3">Materias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#algorithms">Algoritmos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#arrays">Arreglos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#2darrays">Matrices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#stacks">Pilas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="text-center">
+            <img src="./img/me.jpg" alt="Tu Foto"> 
+            <h1>Caleb Romo</h1>
+        </div>
+    </header>
+
+    <section id="fundamentos3">
+        <h1>Fundamentos de Computación III</h1>
+        <p>Temas y actividades realizadas durante el curso de Fundamentos de Computación III.</p>
+    </section>
+
+    <section id="algorithms">
+        <h2>Algoritmos</h2>
+        <h4>Algoritmo: Conjunto ordenado y finito de operaciones que permite hallar la solución de un problema.</h4>
+        <ul>
+            <li>Algoritmo 1: <a href="./html/actividad_1_algoritmos/algoritmo1.html" target="_blank">Click Aquí</a></li>
+            <li>Algoritmo 2: <a href="./html/actividad_1_algoritmos/algoritmo2.html" target="_blank">Click Aquí</a></li>
+            <li>Algoritmo 3: <a href="./html/actividad_1_algoritmos/algoritmo3.html" target="_blank">Click Aquí</a></li>
+            <li>Algoritmo 4: <a href="./html/actividad_1_algoritmos/algoritmo4.html" target="_blank">Click Aquí</a></li>
+            <li>Algoritmo 5: <a href="./html/actividad_1_algoritmos/algoritmo5.html" target="_blank">Click Aquí</a></li>
+        </ul>
+    </section>
+
+    <section id="arrays">
+        <h2>Arreglos</h2>
+        <h4>Arreglo: Son estructuras de datos que permiten almacenar un conjunto de elementos relacionados bajo un solo nombre.</h4>
+        <ul>
+            <li>Arreglo 1: <a href="./html/actividad_2_arreglos/arreglo1.html" target="_blank">Click Aquí</a></li>
+            <li>Arreglo 2: <a href="./html/actividad_2_arreglos/arreglo2.html" target="_blank">Click Aquí</a></li>
+        </ul>
+    </section>
+
+    <section id="2darrays">
+        <h2>Matrices</h2>
+        <h4>Matrices: Colección ordenada de elementos del mismo tipo, organizada en una o más dimensiones.</h4>
+        <ul>
+            <li>Cuadrado Mágico: <a href="./html/actividad_2_arreglos/arreglo3.html" target="_blank">Click Aquí</a></li>
+            <li>Memorama: <a href="html/actividad_3_memorama/memorama.html" target="_blank">Click Aquí</a></li>
+            <li>Tic-Tac-Toe: <a href="html/actividad_4_tictactoe/tictactoe.html" target="_blank">Click Aquí</a></li>
+        </ul>
+    </section>
+
+    <section id="stacks">
+        <h2>Pilas</h2>
+        <h4>Pila: Estructura de datos que permite almacenar y recuperar datos con acceso LIFO.</h4>
+        <ul>
+            <li>Pila 1: <a href="./html/actividad_5_pila/pila.html" target="_blank">Click Aquí</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Contacto: caleb_romo@hotmail.com</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
