@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caleb Romo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            background-color: #191919; 
+            color: white; 
+        }
+
+        .navbar {
+            background-color: rgba(51, 51, 51, 0.8);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar .navbar-brand {
+            color: rgb(252, 188, 29);; /* Color del logo en naranja */
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Fuente Montserrat para el logo */
+            font-weight: bold; /* Negrita */
+        }
+
+        .navbar a {
+            color: rgb(252, 188, 29);; /* Color naranja para los enlaces de la navbar */
+            text-decoration: none;
+        }
+
+        .hero {
+            background-image: url('./img/peñasco.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            color: white;
+        }
+
+        .hero img {
+            max-width: 250px; 
+            height: auto;
+            border-radius: 50%;
+            border: 8px solid white; 
+        }
+
+        .hero h1 {
+            margin-top: 10px; 
+            font-size: 6em; 
+            color: white; 
+        }
+
+        .hero h2 {
+            font-size: 1.75rem; /* Tamaño específico */
+            font-weight: 700; /* Negrita */
+            font-style: italic; /* Cursiva */
+            font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Fuente específica */
+            color: white; 
+        }
+
+        section {
+            padding: 40px 20px; 
+            background: rgba(255, 255, 255, 0.1); 
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        h1, h2, h4 {
+            font-weight: 600; 
+            color: white; 
+        }
+
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 20px 0; 
+        }
+
+        .btn {
+            margin: 10px 0; /* Espaciado vertical entre botones */
+        }
+
+        .btn-primary {
+            margin-bottom: 15px; /* Más espacio entre botones */
+        }
+
+        .btn:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Caleb Romo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#fundamentos3">Materias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#algorithms">Algoritmos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#arrays">Arreglos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#2darrays">Matrices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#stacks">Pilas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="text-center">
+            <img src="./img/me.jpg" alt="img"> 
+            <h1>Caleb Romo</h1>
+            <h2>Software Engineering Student @ UNISON</h2>
+        </div>
+    </header>
+
+    <section id="fundamentos3" data-aos="fade-up">
+        <h1>Fundamentos de Computación III</h1>
+        <p>Temas y actividades realizadas durante el curso de Fundamentos de Computación III.</p>
+    </section>
+
+    <section id="algorithms" data-aos="fade-up">
+        <h2>Algoritmos</h2>
+        <h4>Algoritmo: Conjunto ordenado y finito de operaciones que permite hallar la solución de un problema.</h4>
+        <ul class="list-unstyled">
+            <li><a class="btn btn-primary" href="./html/actividad_1_algoritmos/algoritmo1.html" target="_blank">Algoritmo 1</a></li>
+            <li><a class="btn btn-primary" href="./html/actividad_1_algoritmos/algoritmo2.html" target="_blank">Algoritmo 2</a></li>
+            <li><a class="btn btn-primary" href="./html/actividad_1_algoritmos/algoritmo3.html" target="_blank">Algoritmo 3</a></li>
+            <li><a class="btn btn-primary" href="./html/actividad_1_algoritmos/algoritmo4.html" target="_blank">Algoritmo 4</a></li>
+            <li><a class="btn btn-primary" href="./html/actividad_1_algoritmos/algoritmo5.html" target="_blank">Algoritmo 5</a></li>
+        </ul>
+    </section>
+
+    <section id="arrays" data-aos="fade-up">
+        <h2>Arreglos</h2>
+        <h4>Arreglo: Son estructuras de datos que permiten almacenar un conjunto de elementos relacionados bajo un solo nombre.</h4>
+        <ul class="list-unstyled">
+            <li><a class="btn btn-primary" href="./html/actividad_2_arreglos/arreglo1.html" target="_blank">Arreglo 1</a></li>
+            <li><a class="btn btn-primary" href="./html/actividad_2_arreglos/arreglo2.html" target="_blank">Arreglo 2</a></li>
+        </ul>
+    </section>
+
+    <section id="2darrays" data-aos="fade-up">
+        <h2>Matrices</h2>
+        <h4>Matrices: Colección ordenada de elementos del mismo tipo, organizada en una o más dimensiones.</h4>
+        <ul class="list-unstyled">
+            <li><a class="btn btn-primary" href="./html/actividad_2_arreglos/arreglo3.html" target="_blank">Cuadrado Mágico</a></li>
+            <li><a class="btn btn-primary" href="html/actividad_3_memorama/memorama.html" target="_blank">Memorama</a></li>
+            <li><a class="btn btn-primary" href="html/actividad_4_tictactoe/tictactoe.html" target="_blank">Tic-Tac-Toe</a></li>
+        </ul>
+    </section>
+
+    <section id="stacks" data-aos="fade-up">
+        <h2>Pilas</h2>
+        <h4>Pila: Estructura de datos que permite almacenar y recuperar datos con acceso LIFO.</h4>
+        <ul class="list-unstyled">
+            <li><a class="btn btn-primary" href="./html/actividad_5_pila/pila.html" target="_blank">Pila 1</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Contacto: a222200419@unison.mx</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
