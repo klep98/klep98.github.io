@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+}
+
+td {
+    background-color: transparent; /* Mantiene el fondo negro */
+    color: white; /* Texto en blanco */
+    border: 1px solid white; /* Bordes blancos */
+    padding: 5px; /* Espaciado interno */
+}
+
+#mensaje {
+    color: rgb(252, 188, 29);
+    margin-top: 10px; /* Ajusta según sea necesario */
+}
+
+img {
+    position: fixed;
+    top: 150px;
+    right: 20px;
+}
+
+a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+    position: absolute; /* Coloca el enlace en la parte superior */
+    top: 20px; /* Espacio desde la parte superior */
+    left: 20px; /* Espacio desde la izquierda */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}

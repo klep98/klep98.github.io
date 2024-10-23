@@ -1,0 +1,59 @@
+.imagen
+    {
+        /* Las dimensiones se pueden poner tanto en píxeles como en porcentaje. */
+        width: 60%;
+        height: 60%;
+    }
+
+    table {
+    background-image: url("img/fondo.jpg");
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: inline-table;
+    }
+
+    h1
+    {
+        margin-top: 30px; /* Espacio entre la tabla y el texto */
+        color: white; /* Color de texto blanco */
+        display: inline;
+    }
+
+    h4 
+        {
+            color: white;
+        }
+
+    input[type = button]
+    {
+        font-size: larger;
+        background-color: rgb(77, 68, 57);
+    }
+
+        /* Cambia el color del texto del botón a blanco */
+        #botonReiniciar {
+        color: black;
+        background-color: white; /* Puedes cambiar el fondo si lo deseas */
+        border: none; /* Para quitar el borde si quieres */
+        padding: 10px 20px; /* Espaciado */
+        cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    }
+
+    body
+    {
+        background-color:black ;
+    }    
+
+            /* Para el enlace */
+            a {
+            color: white; /* Color del texto del enlace */
+            text-decoration: none; /* Sin subrayado */
+            position: absolute; /* Coloca el enlace en la parte superior */
+            top: 20px; /* Espacio desde la parte superior */
+            left: 20px; /* Espacio desde la izquierda */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Subrayar al pasar el ratón */
+        }

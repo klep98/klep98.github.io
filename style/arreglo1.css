@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid white; /* Bordes blancos */
+    padding: 5px; /* Espaciado interno */
+}
+
+input[type="number"], input[type="button"], input[type="submit"] {
+    color: white;
+    background-color: transparent; /* Fondo transparente */
+    border: 1px solid white; /* Bordes blancos */
+    outline: none; /* Sin contorno al seleccionar */
+    padding: 5px; /* Espaciado interno */
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efecto hover */
+}
+
+a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+#error {
+    color: red; /* Color del mensaje de error */
+}

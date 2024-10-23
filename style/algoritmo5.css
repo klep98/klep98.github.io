@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+input[type="number"], button {
+    color: white;
+    background-color: transparent; /* Fondo transparente */
+    border: 1px solid white; /* Bordes blancos */
+    outline: none; /* Sin contorno al seleccionar */
+    padding: 5px; /* Espaciado interno */
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efecto hover */
+}
+
+a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+#result {
+    color: rgb(252, 188, 29); /* Color del resultado */
+}

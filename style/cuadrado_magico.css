@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid white; /* Bordes blancos */
+    padding: 5px; /* Espaciado interno */
+}
+
+input[type="number"] {
+    width: 50px;
+    color: white;
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde en los inputs */
+    outline: none; /* Sin contorno al seleccionar */
+}
+
+table input[type="number"] {
+    color: white !important; /* Añadir !important para asegurarte de que se aplique */
+}
+
+
+a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+#verificar {
+    margin-top: 20px; /* Espacio superior */
+    color: rgb(252, 188, 29); /* Color del mensaje */
+}
