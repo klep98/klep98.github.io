@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./../../style/algoritmo3.css">
     <title>Algoritmo 3</title>
     <script src="./../../js/algoritmo3.js"></script>
 </head>
 <body>
-    <p><a href="../../index.html">Regresar al menú</a></p>
+    <div class="container">
+        <p><a class="btn-back" href="../../index.html">Regresar al menú</a></p>
 
-    <h1>Algoritmo 3</h1>
-    <h4>
-        Escribir un programa que muestre en pantalla los cinco primeros números naturales
-        pares elevados al cubo.
-    </h4>
+        <h1>Algoritmo 3</h1>
+        <h4>Escribir un programa que muestre en pantalla los cinco primeros números naturales pares elevados al cubo.</h4>
 
-    <p>Ejemplo: <br>
-        2 al cubo es 8 <br>
-        4 al cubo es 64 <br>
-        6 al cubo es .. <br>
-        8 al cubo es .. <br>
-        100 al cubo es ..
-    </p> 
+        <p>Ejemplo: <br>
+            2 al cubo es 8 <br>
+            4 al cubo es 64 <br>
+            6 al cubo es .. <br>
+            8 al cubo es .. <br>
+            100 al cubo es ..
+        </p> 
 
-    <p>Cantidad de números naturales pares: <input type="number" value="2" id="nat" style="color: white; background-color: black; border: 1px solid white;"></p>
-    <input type="button" value="Calcular" onclick="cubo()" style="color: white; background-color: transparent; border: 1px solid white;"> 
-    <br>
-    <p id="resultado" style="color: rgb(252, 188, 29);">Resultado</p>
-    <br>
-    <img src="./../../img/img3.jpg" alt="" style="max-width: 100%; height: auto;">
+        <label for="nat">Cantidad de números naturales pares:</label>
+        <input type="number" value="2" id="nat"><br><br>
+        
+        <a class="btn btn-primary" onclick="cubo()">Calcular</a>
+        <br><br>
+
+        <p id="resultado">Resultado: </p>
+        <br>
+        <img src="./../../img/img3.jpg" alt="" style="max-width: 100%; height: auto;">
+    </div>
 </body>
 </html>

@@ -3,30 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./../../style/pila.css">
     <title>Pila Genérica</title>
 </head>
 <script src="./../../js/pila.js"></script>
 <body onload="Aleatorias();">
-    <a href="./../../index.html">Regresar al menú</a>
-    <br>
-    <h1>Pila Genérica</h1>
-    Desarrolle una aplicación que muestre un objeto tipo pila, e implement los métodos Push, Pop, Peek, Clear, Find, isEmpty.
-    <br>
-    Elemento: <input type="text" id="Elemento" onkeyup="CambioTexto()">
-    <br>
-    <br>
-    <input type="button" value="Push()" id="iPush" onclick="Push(); Aleatorias();">
-    <input type="button" value="Pop()" id="iPop" onclick="Pop()">
-    <input type="button" value="Peek()" id="iPeek" onclick="Peek()">
-    <input type="button" value="Clear()" id="iClear" onclick="Clear()">
-    <input type="button" value="Find()" id="iFind" onclick="Find()">
-    <input type="button" value="isEmpty()" id="iEmpty" onclick="isEmpty()">
-    <h3 id="mensaje"></h3>
-    <div id="topLabel" style="color: white; margin-bottom: 10px; display: inline-block;"></div>
-    <table style="display: inline-table;">
-        <tbody id="tabla"></tbody>
-    </table>
-    <img src="./../../img/pila.png" alt="" style="display: inline-table;">
+    <div class="container">
+        <p><a class="btn-back" href="./../../index.html">Regresar al menú</a></p>
+        <h1>Pila Genérica</h1>
+        <p>Desarrolle una aplicación que muestre un objeto tipo pila e implemente los métodos Push, Pop, Peek, Clear, Find, isEmpty.</p>
+        <p>
+            Elemento: <input type="text" id="Elemento" onkeyup="CambioTexto()">
+        </p>
+        <br>
+        <input type="button" class="btn btn-primary" value="Push()" id="iPush" onclick="Push(); Aleatorias();">
+        <input type="button" class="btn btn-primary" value="Pop()" id="iPop" onclick="Pop()">
+        <input type="button" class="btn btn-primary" value="Peek()" id="iPeek" onclick="Peek()">
+        <input type="button" class="btn btn-primary" value="Find()" id="iFind" onclick="Find()">
+        <input type="button" class="btn btn-primary" value="isEmpty()" id="iEmpty" onclick="isEmpty()">
+        <input type="button" class="btn btn-primary" value="Clear()" id="iClear" onclick="Clear()">
+        
+        <h3 id="mensaje"></h3>
+        <div id="topLabel" style="color: white; margin-bottom: 10px; display: inline-block;"></div>
+        <table style="display: inline-table;">
+            <tbody id="tabla"></tbody>
+        </table>
+        <img src="./../../img/pila.png" alt="Imagen de Pila" style="display: inline-table;">
+    </div>
 </body>
 </html>
