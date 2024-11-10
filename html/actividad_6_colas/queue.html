@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../style/queue.css">
+    <title>Queues (Colas)</title>
+    <script src="./../../js/queue.js"></script>
+</head>
+
+<body onload="Aleatorias()">
+    <div class="container">
+        <p><a class="btn-back" href="./../../index.html">Regresar al menú</a></p>
+        
+        <h1>Cola Genérica</h1>
+        Desarrolle una aplicación que muestre un objeto tipo cola (queue), e implemente los métodos:
+        <br>
+        <b>Enqueue</b>, <b>Dequeue</b>, <b>Front</b>, <b>Clear</b>, <b>Find</b>, <b>isEmpty</b>.
+        <br><br>
+        Elemento: <input type="text" name="" id="Elemento" onkeyup="CambioTexto()">
+        <br><br>
+
+        <input type="button" class="btn" value="Enqueue()" id="iEnqueue" onclick="Enqueue(); Aleatorias();">
+        <input type="button" class="btn" value="Dequeue()" id="iDequeue" onclick="Dequeue()">
+        <input type="button" class="btn" value="Front()" id="iFront" onclick="Front()" disabled>
+        <input type="button" class="btn" value="Find()" id="iFind" onclick="Find()">
+        <input type="button" class="btn" value="isEmpty()" id="iIsEmpty" onclick="isEmpty()">
+        <input type="button" class="btn" value="Clear()" id="iClear" onclick="Clear()">
+        <p id="mensaje"></p>
+
+        <!-- Contenedor flex para tabla e imagen -->
+        <div id="contenedor">
+            <div id="contenedorTabla">
+                <table id="tabla">
+                    <tbody></tbody>
+                </table>
+            </div>
+            <img src="./../../img/queue.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

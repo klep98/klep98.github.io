@@ -1,92 +1,210 @@
-input[type=button] 
-        {
-            width: 180px;
-            height: 180px;
-            font-size: 100px;
-        }
+* {
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
 
-        input[type=submit] {
-        width: 200px; /* Aumentar el ancho */
-        height: 60px; /* Aumentar la altura */
-        font-size: 24px; /* Aumentar el tamaño de la fuente */
-        margin-top: 20px; /* Añadir un margen superior */
-        }
+.titulo-container {
+    width: 100%; /* Asegura que ocupa todo el ancho */
+    max-width: 100%; /* Sin límite máximo de ancho */
+    margin: 0; /* Elimina márgenes laterales */
+    text-align: left; 
+    color: white;
+    padding: 0 10px; /* Ajusta el padding para que no se pegue a los bordes */
+    overflow-wrap: break-word; /* Asegura que el texto se ajuste en líneas */
+}
+
+/* Centrar la tabla */
+.tabla-container {
+    display: flex;
+    justify-content: center; /* Centra la tabla */
+    margin-top: 20px;
+}
+
+/* Contenedor para el botón de reinicio centrado */
+.reiniciar-container {
+    display: flex;
+    justify-content: center; /* Centra el botón de reinicio horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    margin-top: 20px; /* Espaciado arriba */
+    width: 100%; /* Asegúrate de que ocupa el ancho completo */
+    max-width: 100%; /* Sin límite máximo de ancho */
+    margin: 0; /* Elimina márgenes laterales */
+}
+
+/* Estilo de la tabla */
+table {
+    margin: 0 auto;
+    display: inline-table;
+    position: relative; /* Este atributo hace que se posicionen los objetos en relación o base a la tabla. */
+    width: 80%; /* Reduce el ancho de la tabla en un 20% */
+}
+
+
+/* Botones de la tabla */
+input[type=button] {
+    width: 144px; /* 80% de 180px */
+    height: 144px; /* 80% de 180px */
+    font-size: 80px; /* Tamaño de fuente ajustado */
+}   
+
+/* Estilo del botón de reinicio */
+input[type="submit"] {
+    font-size: 20px; /* Tamaño de fuente ajustado */
+    background-color: rgb(252, 188, 29); /* Color de fondo */
+    color: black; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s; /* Transición suave */
+    width: 200px; /* Aumentar el ancho */
+    height: 60px; /* Aumentar la altura */
+}
         
-
-        h1 {
-            
-            margin-top: 30px; /* Espacio entre la tabla y el texto */
-            color: white; /* Color de texto blanco */
-            display: inline;
-        }
+input[type="submit"]:hover {
+    background-color: black; /* Efecto hover */
+    color: white; /* Cambia el texto a blanco al pasar el mouse */
+}
         
-        /* Especificar que el h1 con id "turno" esté centrado */
-        #turno 
-        {
-            text-align: center; /* Centra solo este h1 */
-            width: 100%; /* Para que ocupe el ancho completo */
-        }
+h1 {
+    margin-top: 10px; /* Espacio entre la tabla y el texto */
+    color: white; /* Color de texto blanco */
+    font-size: 24px; /* Tamaño de fuente ajustado */
+}
 
-        tr
-        {
-            position: relative;
-        }
+h4 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 16px; /* Tamaño de fuente ajustado */
+    word-wrap: break-word; /* Asegura que las palabras largas se rompan si es necesario */
+    line-height: 1.4; /* Ajusta el espacio entre líneas */
+}
 
-        td
-        {
-            position: relative;
-        }
-
-        h4 
-        {
-            color: white;
-        }
-
-        table 
-        {
-            margin: auto;
-            display: inline-table;
-            position: relative; /* Este atributo hace que se posicionen los objetos en relación o base a la tabla. */
-        }
+div {
+    max-width: 700px; /* Limita el ancho */
+    margin-left: 20px; /* Separa el contenido de la izquierda */
+}
         
-        tr
-        {
-            position: relative;
+/* Texto de turno */
+#turno {
+    text-align: center; /* Centra solo este h1 */
+    width: 100%; /* Para que ocupe el ancho completo */
+    color: white;
+    margin-top: 20px;
+    font-size: 20px; /* Tamaño de fuente ajustado */
+}
 
-        }
+tr {
+    position: relative;
+}
 
-        .imagen
-        {
-            width: 100px;
-            height: 100px;
-        }
+td {
+    position: relative;
+}
 
-        body 
-        {
-            background: black;
-            display: flex;
-            flex-direction: column; /* Coloca los elementos en columna */
-            align-items: center; /* Centra los elementos horizontalmente */
-            justify-content: center; /* Centra los elementos verticalmente */
-            height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
-            margin: 0; /* Elimina el margen por defecto */
-            padding: 0;
-        }
+.imagen {
+    width: 100px;
+    height: 100px;
+}
 
-        /* Para el enlace */
-        a {
-            color: white; /* Color del texto del enlace */
-            text-decoration: none; /* Sin subrayado */
-            position: absolute; /* Coloca el enlace en la parte superior */
-            top: 20px; /* Espacio desde la parte superior */
-            left: 20px; /* Espacio desde la izquierda */
-        }
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    margin: 0;
+    padding: 0;
+}
 
-        a:hover {
-            text-decoration: underline; /* Subrayar al pasar el ratón */
-        }
+/* Para el enlace */
+a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+    position: absolute; /* Coloca el enlace en la parte superior */
+    top: 20px; /* Espacio desde la parte superior */
+    left: 20px; /* Espacio desde la izquierda */
+}
 
-        #contador 
-        {
-            margin-top: 20px;
-        }
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+#contador {
+    margin-top: 20px;
+}
+
+/* Línea diagonal de arriba a abajo */
+.line-diagonal-top-to-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 5px solid #2c8cbc;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Línea diagonal de abajo a arriba */
+.line-diagonal-bottom-to-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 5px solid #2c8cbc;
+    transform: rotate(-45deg);
+    transform-origin: top left;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Ajustar las celdas de la tabla para que sus hijos se alineen correctamente */
+td {
+    position: relative; /* Necesario para que los elementos absolutamente posicionados dentro de cada celda se ubiquen correctamente */
+}
+
+
+/* Estilos para los botones */
+.btn {
+    margin: 10px 0; 
+    background-color: rgb(252, 188, 29); /* Color inicial (amarillo) */
+    color: black; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    text-decoration: none; /* Sin subrayado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s, color 0.3s, transform 0.1s; /* Efecto de transición */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Efecto hover */
+.btn:hover {
+    background-color: black; /* Fondo negro al pasar el ratón */
+    color: white; /* Texto blanco */
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño */
+}
+
+/* Efecto al hacer clic */
+.btn:active {
+    transform: scale(1); /* Vuelve al tamaño original al hacer clic */
+}
+
+/* Para los botones tipo <a> con la clase .btn */
+a.btn {
+    display: inline-block; /* Asegura que el enlace se comporte como un bloque para estilizarlo como un botón */
+}
+
+/* Enlace "Regresar al menú" sin botón, solo texto */
+.btn-back {
+    color: white; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    position: absolute; /* Coloca el enlace en la parte superior */
+    top: 20px; /* Espacio desde la parte superior */
+    left: 20px; /* Espacio desde la izquierda */
+}
+
+.btn-back:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}

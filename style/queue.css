@@ -1,3 +1,60 @@
+/* Estilo para el input de palabras */
+#Elemento {
+    background-color: black;  /* Fondo negro */
+    color: white;  /* Texto blanco */
+    border: 2px solid white;  /* Borde blanco */
+    padding: 10px;  /* Espaciado interno */
+    font-size: 16px;  /* Tamaño de la fuente */
+    border-radius: 5px;  /* Esquinas redondeadas */
+    outline: none;  /* Elimina el borde de enfoque predeterminado */
+    transition: border-color 0.3s;  /* Transición suave para el borde */
+}
+
+/* Estilo al hacer focus (cuando el input está seleccionado) */
+#Elemento:focus {
+    border-color: rgb(252, 188, 29);  /* Borde de color amarillo al enfocar */
+    box-shadow: 0 0 5px rgb(252, 188, 29); /* Sombra sutil amarilla al enfocar */
+}
+
+
+/* Contenedor de la tabla e imagen */
+#contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+/* Contenedor de la tabla */
+#contenedorTabla {
+    max-height: 80vh;
+    overflow-y: auto;
+    width: 50%; /* Limitamos el ancho de la tabla */
+}
+
+/* La tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid white; /* Borde blanco alrededor de la tabla */
+}
+
+/* Celdas de la tabla */
+table td {
+    border: 1px solid white; /* Borde blanco para las celdas */
+    padding: 5px;
+    text-align: center; /* Centra el texto */
+    background-color: transparent; /* Aseguramos que el fondo no interfiera */
+    color: white; /* Texto en blanco para visibilidad */
+}
+
+/* Imagen */
+img {
+    display: block;
+    max-width: 55%; /* Limitar el tamaño de la imagen */
+    height: auto;
+}
+
 body {
     font-family: 'Montserrat', sans-serif; /* Establecer la fuente */
     background-color: black; /* Fondo negro */
@@ -13,20 +70,16 @@ body {
     padding: 10px; /* Relleno interno */
 }
 
-table {
+table, tr, td {
     border-collapse: collapse; /* Colapsar bordes */
-    background-color: black; /* Fondo negro para la tabla */
-}
-
-tr {
-    background-color: black; /* Asegura que las filas sean negras */
 }
 
 td {
+    background-color: transparent; /* Fondo transparente */
+    color: white; /* Texto blanco */
     border: 1px solid white; /* Bordes blancos */
     padding: 5px; /* Espaciado interno */
-    text-align: center; /* Centrar contenido */
-    background-color: black; /* Asegura que las celdas sean negras */
+    text-align: center; /* Centrado de texto */
 }
 
 input[type="button"] {
@@ -44,25 +97,6 @@ input[type="button"]:hover {
     background-color: black; /* Efecto hover */
     color: white; /* Cambia el texto a blanco al pasar el mouse */
 }
-
-/* Para el enlace */
-a {
-    color: white; /* Color del texto del enlace */
-    text-decoration: none; /* Sin subrayado */
-    position: absolute; /* Coloca el enlace en la parte superior */
-    top: 20px; /* Espacio desde la parte superior */
-    left: 20px; /* Espacio desde la izquierda */
-}
-
-a:hover {
-    text-decoration: underline; /* Subrayar al pasar el ratón */
-}
-
-#verificar {
-    margin-top: 20px; /* Espacio superior */
-    color: rgb(252, 188, 29); /* Color del mensaje */
-}
-
 
 /* Estilos para los botones */
 .btn {
@@ -107,3 +141,28 @@ a.btn {
 .btn-back:hover {
     text-decoration: underline; /* Subrayar al pasar el ratón */
 }
+
+/* Para el enlace */
+a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+    position: absolute; /* Coloca el enlace en la parte superior */
+    top: 20px; /* Espacio desde la parte superior */
+    left: 20px; /* Espacio desde la izquierda */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+#mensaje {
+    color: rgb(252, 188, 29); /* Color para los mensajes */
+    margin-top: 10px; /* Ajusta según sea necesario */
+}
+
+#topLabel {
+    color: white; /* Texto en blanco para el top */
+    margin-bottom: 10px; /* Espacio inferior */
+    display: inline-block; /* Alineación en línea */
+}
+

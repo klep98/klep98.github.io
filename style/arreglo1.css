@@ -1,10 +1,20 @@
 body {
-    background-color: black;
-    color: white;
+    font-family: 'Montserrat', sans-serif; /* Establecer la fuente */
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    scroll-behavior: smooth; /* Desplazamiento suave */
 }
 
-table, tr, td {
-    border-collapse: collapse;
+.container {
+    max-width: 2000px; /* Ancho máximo para centrar el contenido */
+    margin: 10px auto; /* Margen automático para centrar */
+    padding: 10px; /* Relleno interno */
+}
+
+table {
+    border-collapse: collapse; /* Colapsar bordes */
 }
 
 td {
@@ -12,6 +22,7 @@ td {
     padding: 5px; /* Espaciado interno */
 }
 
+/* Estilo común para los inputs */
 input[type="number"], input[type="button"], input[type="submit"] {
     color: white;
     background-color: transparent; /* Fondo transparente */
@@ -20,19 +31,76 @@ input[type="number"], input[type="button"], input[type="submit"] {
     padding: 5px; /* Espaciado interno */
 }
 
+/* Efecto hover para los inputs */
 input[type="submit"]:hover, input[type="button"]:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Efecto hover */
 }
 
-a {
-    color: white; /* Color del texto del enlace */
+/* Estilo de los botones */
+.btn {
+    margin: 10px 0;
+    background-color: rgb(252, 188, 29); /* Color inicial (amarillo) */
+    color: black; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
     text-decoration: none; /* Sin subrayado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s, color 0.3s, transform 0.1s; /* Efecto de transición */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
 }
 
-a:hover {
+/* Efecto hover para los botones */
+.btn:hover {
+    background-color: black; /* Cambiar a negro al pasar el mouse */
+    color: white; /* Cambiar el texto a blanco */
+    transform: scale(1.05); /* Ligero aumento de tamaño */
+}
+
+/* Efecto al hacer clic en el botón */
+.btn:active {
+    transform: scale(1); /* Vuelve al tamaño original al hacer clic */
+}
+
+/* Estilo del botón "Regresar al menú" */
+.btn-back {
+    color: white; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    position: absolute; /* Coloca el enlace en la parte superior */
+    top: 20px; /* Espacio desde la parte superior */
+    left: 20px; /* Espacio desde la izquierda */
+}
+
+.btn-back:hover {
     text-decoration: underline; /* Subrayar al pasar el ratón */
 }
 
+/* Estilo del mensaje de error (si se usa) */
 #error {
     color: red; /* Color del mensaje de error */
+}
+
+/* Estilo común para los botones .btn */
+.btn, input[type="submit"].btn, input[type="button"].btn {
+    background-color: rgb(252, 188, 29); /* Color de fondo amarillo */
+    color: black; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    text-decoration: none; /* Sin subrayado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s, color 0.3s, transform 0.1s; /* Efecto de transición */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Efecto hover para los botones .btn */
+.btn:hover, input[type="submit"].btn:hover, input[type="button"].btn:hover {
+    background-color: black; /* Fondo negro al pasar el ratón */
+    color: white; /* Texto blanco */
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño */
+}
+
+/* Efecto de clic (active) */
+.btn:active, input[type="submit"].btn:active, input[type="button"].btn:active {
+    transform: scale(1); /* Vuelve al tamaño original al hacer clic */
 }
