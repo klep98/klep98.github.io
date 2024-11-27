@@ -1,1 +1,25 @@
-function _0x5b18(_0x17be6c,_0x799bc){const _0x39a0b4=_0x39a0();return _0x5b18=function(_0x5b1839,_0x1fcafe){_0x5b1839=_0x5b1839-0x16d;let _0x50a78c=_0x39a0b4[_0x5b1839];return _0x50a78c;},_0x5b18(_0x17be6c,_0x799bc);}function _0x39a0(){const _0x1a6d25=['544878vILzTs','444010juMgJK','7ieJdqI','390132XibPhs','Por\x20favor\x20ingrese\x20un\x20número\x20válido.','2516193uJycNA','value','toFixed','111goFkwu','Error:\x20El\x20número\x20de\x20iteraciones\x20no\x20puede\x20ser\x20negativo.','9256XFTEyH','605140GjmjLH','getElementById','1oWiJsc','π\x20≈\x20','2244024eoVkma','result'];_0x39a0=function(){return _0x1a6d25;};return _0x39a0();}(function(_0x2a10c1,_0x4d1bef){const _0x1d9178=_0x5b18,_0x2b7971=_0x2a10c1();while(!![]){try{const _0x1ae6f8=-parseInt(_0x1d9178(0x175))/0x1*(-parseInt(_0x1d9178(0x179))/0x2)+parseInt(_0x1d9178(0x170))/0x3*(parseInt(_0x1d9178(0x172))/0x4)+-parseInt(_0x1d9178(0x17a))/0x5+-parseInt(_0x1d9178(0x17c))/0x6*(parseInt(_0x1d9178(0x17b))/0x7)+parseInt(_0x1d9178(0x177))/0x8+-parseInt(_0x1d9178(0x16d))/0x9+-parseInt(_0x1d9178(0x173))/0xa;if(_0x1ae6f8===_0x4d1bef)break;else _0x2b7971['push'](_0x2b7971['shift']());}catch(_0x30cc90){_0x2b7971['push'](_0x2b7971['shift']());}}}(_0x39a0,0x23505));function calculatePi(){const _0x5cf2f9=_0x5b18,_0x29190f=parseInt(document[_0x5cf2f9(0x174)]('iterations')[_0x5cf2f9(0x16e)]),_0x3494b4=document[_0x5cf2f9(0x174)](_0x5cf2f9(0x178));if(isNaN(_0x29190f)){_0x3494b4['textContent']=_0x5cf2f9(0x17d);return;}if(_0x29190f<0x0){_0x3494b4['textContent']=_0x5cf2f9(0x171);return;}let _0x467ace=0x0;for(let _0x554ad7=0x0;_0x554ad7<_0x29190f;_0x554ad7++){const _0x3010a1=(_0x554ad7%0x2===0x0?0x1:-0x1)/(0x2*_0x554ad7+0x1);_0x467ace+=_0x3010a1;}_0x467ace*=0x4,_0x3494b4['textContent']=_0x5cf2f9(0x176)+_0x467ace[_0x5cf2f9(0x16f)](0x5);}
+function calculatePi() {
+    const iterations = parseInt(document.getElementById('iterations').value);
+    const resultElement = document.getElementById('result');
+
+    // Manejo de errores
+    if (isNaN(iterations)) {
+        resultElement.textContent = 'Por favor ingrese un número válido.';
+        return;
+    }
+
+    if (iterations < 0) {
+        resultElement.textContent = 'Error: El número de iteraciones no puede ser negativo.';
+        return;
+    }
+
+    // Cálculo de π usando la serie de Leibniz
+    let pi = 0;
+    for (let i = 0; i < iterations; i++) {
+        const term = (i % 2 === 0 ? 1 : -1) / (2 * i + 1);
+        pi += term;
+    }
+    pi *= 4;
+
+    resultElement.textContent = `π ≈ ${pi.toFixed(5)}`;
+}

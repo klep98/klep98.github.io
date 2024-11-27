@@ -29,6 +29,30 @@ td {
     background-color: black; /* Asegura que las celdas sean negras */
 }
 
+/* Estilo para el input de tipo number (con flechas de incremento/decremento) */
+input[type="number"] {
+    background-color: #333; /* Fondo oscuro para el input */
+    color: white; /* Texto blanco */
+    border: 1px solid #555; /* Bordes suaves y oscuros */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 8px 12px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    width: 130px; /* Ancho fijo */
+}
+
+/* Estilo cuando el input de tipo number está enfocado (focus) */
+input[type="number"]:focus {
+    border-color: rgb(252, 188, 29); /* Borde amarillo cuando está enfocado */
+    box-shadow: 0 0 5px rgb(252, 188, 29); /* Sombra sutil en amarillo */
+}
+
+/* Estilos específicos para las flechas (spinners) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Eliminar la apariencia predeterminada */
+    margin: 0; /* Eliminar márgenes */
+}
+
 input[type="button"] {
     font-size: larger; /* Tamaño de fuente mayor */
     background-color: rgb(252, 188, 29); /* Color de fondo */
@@ -106,4 +130,21 @@ a.btn {
 
 .btn-back:hover {
     text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+/* Estilo para los select */
+select {
+    background-color: #333; /* Fondo oscuro para los select */
+    color: white; /* Texto blanco */
+    border: 1px solid #555; /* Bordes suaves y oscuros */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 8px 12px; /* Espaciado interior más cómodo */
+    font-size: 16px; /* Fuente legible */
+    width: 130px; /* Ancho fijo para todos los select */
+}
+
+/* Estilo cuando los select están enfocados (focus) */
+select:focus {
+    border-color: rgb(252, 188, 29); /* Borde amarillo cuando está enfocado */
+    box-shadow: 0 0 5px rgb(252, 188, 29); /* Sombra sutil en amarillo */
 }

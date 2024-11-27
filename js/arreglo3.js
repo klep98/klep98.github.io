@@ -1,1 +1,180 @@
-function _0xe73f(){var _0x38cc1a=['color','1718660lyMycJ','1559055NaeUUP','random','cells','diagonalizq','value','lados','required','¡Es\x20un\x20cuadrado\x20mágico!','NO\x20es\x20un\x20cuadrado\x20mágico','diagonalder','insertCell','innerHTML','1543238ztmxot','floor','appendChild','border','rows','7mImCWf','input','cuadrado','suma','type','5CpDODT','20MnERuD','number','No\x20es\x20un\x20cuadrado\x20mágico.','insertRow','6147468lLjIHz','2109224OWYFqf','3361833TjnmFt','createElement','verificar','919383nqjper','querySelector','none','style','getElementById','setAttribute'];_0xe73f=function(){return _0x38cc1a;};return _0xe73f();}function _0x411e(_0x46f6fe,_0x2f3e8){var _0xe73f72=_0xe73f();return _0x411e=function(_0x411e7c,_0x282b0d){_0x411e7c=_0x411e7c-0x1d9;var _0x333589=_0xe73f72[_0x411e7c];return _0x333589;},_0x411e(_0x46f6fe,_0x2f3e8);}(function(_0x53794f,_0x11fc0b){var _0x4cb54a=_0x411e,_0x2b0441=_0x53794f();while(!![]){try{var _0x1c2f5e=parseInt(_0x4cb54a(0x1e0))/0x1+-parseInt(_0x4cb54a(0x1f4))/0x2+parseInt(_0x4cb54a(0x1e8))/0x3+-parseInt(_0x4cb54a(0x1e7))/0x4*(-parseInt(_0x4cb54a(0x1fe))/0x5)+-parseInt(_0x4cb54a(0x1db))/0x6+parseInt(_0x4cb54a(0x1f9))/0x7*(-parseInt(_0x4cb54a(0x1dc))/0x8)+-parseInt(_0x4cb54a(0x1dd))/0x9*(-parseInt(_0x4cb54a(0x1ff))/0xa);if(_0x1c2f5e===_0x11fc0b)break;else _0x2b0441['push'](_0x2b0441['shift']());}catch(_0x40776f){_0x2b0441['push'](_0x2b0441['shift']());}}}(_0xe73f,0x87bb5));function Generar(){var _0x5ae6a2=_0x411e;document[_0x5ae6a2(0x1e4)]('cuadrado')[_0x5ae6a2(0x1f3)]='';var _0x85a257=document[_0x5ae6a2(0x1e4)](_0x5ae6a2(0x1fb)),_0x262df2=parseInt(document[_0x5ae6a2(0x1e4)](_0x5ae6a2(0x1ed))[_0x5ae6a2(0x1ec)]),_0x2a3c0f='',_0x534486='',_0x5d3a14=0x0,_0x4f6901=0x0;for(_0x5d3a14=0x0;_0x5d3a14<_0x262df2;_0x5d3a14++){_0x534486=_0x85a257[_0x5ae6a2(0x1da)](-0x1),_0x2a3c0f=_0x534486[_0x5ae6a2(0x1f2)](0x0),_0x2a3c0f['innerHTML']='',_0x2a3c0f[_0x5ae6a2(0x1e3)][_0x5ae6a2(0x1f7)]=_0x5ae6a2(0x1e2);for(_0x4f6901=0x0;_0x4f6901<_0x262df2;_0x4f6901++){_0x2a3c0f=_0x534486[_0x5ae6a2(0x1f2)](-0x1);var _0x537a1d=document[_0x5ae6a2(0x1de)](_0x5ae6a2(0x1fa));_0x537a1d[_0x5ae6a2(0x1e5)](_0x5ae6a2(0x1fd),_0x5ae6a2(0x200)),_0x537a1d['setAttribute'](_0x5ae6a2(0x1ee),_0x5ae6a2(0x1ee)),_0x537a1d[_0x5ae6a2(0x1e5)](_0x5ae6a2(0x1ec),aleatorios()),_0x537a1d['setAttribute']('style','width:50px;\x20color:blue'),_0x2a3c0f[_0x5ae6a2(0x1f6)](_0x537a1d);}var _0x2a3c0f=_0x534486[_0x5ae6a2(0x1f2)](-0x1);_0x2a3c0f[_0x5ae6a2(0x1f3)]='suma';}var _0x534486=_0x85a257[_0x5ae6a2(0x1da)](-0x1);for(_0x4f6901=0x0;_0x4f6901<_0x262df2+0x2;_0x4f6901++){_0x2a3c0f=_0x534486[_0x5ae6a2(0x1f2)](-0x1),_0x2a3c0f['innerHTML']=_0x5ae6a2(0x1fc);}_0x85a257[_0x5ae6a2(0x1f8)][_0x262df2]['cells'][_0x4f6901-0x1]['innerHTML']=_0x5ae6a2(0x1f1),_0x85a257[_0x5ae6a2(0x1f8)][_0x262df2]['cells'][0x0][_0x5ae6a2(0x1f3)]=_0x5ae6a2(0x1eb),Calcular();}function aleatorios(){var _0x59f82c=_0x411e;return Math[_0x59f82c(0x1f5)](Math[_0x59f82c(0x1e9)]()*0x64);}function ejemploMagico(){var _0x386f1a=_0x411e,_0x158c4a=document['getElementById']('cuadrado');for(let _0x3ea972=0x0;_0x3ea972<document[_0x386f1a(0x1e4)]('lados')[_0x386f1a(0x1ec)];_0x3ea972++){for(let _0x3de55b=0x1;_0x3de55b<=document[_0x386f1a(0x1e4)](_0x386f1a(0x1ed))[_0x386f1a(0x1ec)];_0x3de55b++){_0x158c4a['rows'][_0x3ea972][_0x386f1a(0x1ea)][_0x3de55b]['querySelector'](_0x386f1a(0x1fa))[_0x386f1a(0x1ec)]=document[_0x386f1a(0x1e4)](_0x386f1a(0x1ed))[_0x386f1a(0x1ec)];}}document[_0x386f1a(0x1e4)](_0x386f1a(0x1df))[_0x386f1a(0x1f3)]=_0x386f1a(0x1ef),document[_0x386f1a(0x1e4)](_0x386f1a(0x1df))[_0x386f1a(0x1e3)]='color:\x20rgb(252,\x20188,\x2029)',Calcular();}function ejemploCuadrado(){var _0x2b57b3=_0x411e,_0x6061ad=document[_0x2b57b3(0x1e4)](_0x2b57b3(0x1fb)),_0x4b376b=0x0,_0x1aa7e7=0x0;for(_0x4b376b=0x0;_0x4b376b<document[_0x2b57b3(0x1e4)](_0x2b57b3(0x1ed))[_0x2b57b3(0x1ec)];_0x4b376b++){for(_0x1aa7e7=0x1;_0x1aa7e7<=document[_0x2b57b3(0x1e4)](_0x2b57b3(0x1ed))[_0x2b57b3(0x1ec)];_0x1aa7e7++){_0x6061ad[_0x2b57b3(0x1f8)][_0x4b376b][_0x2b57b3(0x1ea)][_0x1aa7e7][_0x2b57b3(0x1e1)](_0x2b57b3(0x1fa))[_0x2b57b3(0x1ec)]=aleatorios();}}_0x6061ad[_0x2b57b3(0x1f8)][_0x4b376b-0x1]['cells'][_0x1aa7e7-0x1]['querySelector'](_0x2b57b3(0x1fa))[_0x2b57b3(0x1ec)]=-0x1,document['getElementById'](_0x2b57b3(0x1df))[_0x2b57b3(0x1f3)]=_0x2b57b3(0x1f0),document['getElementById'](_0x2b57b3(0x1df))[_0x2b57b3(0x1e3)]='color:\x20red',Calcular();}function Calcular(){var _0x5c5b9a=_0x411e,_0x232027=document[_0x5c5b9a(0x1e4)](_0x5c5b9a(0x1fb)),_0x48df52=_0x232027['rows']['length'],_0x125841=0x0,_0x45c1fa=0x0;for(_0x125841=0x0;_0x125841<_0x48df52-0x1;_0x125841++){var _0x48d69f=0x0;for(_0x45c1fa=0x1;_0x45c1fa<_0x48df52;_0x45c1fa++){_0x48d69f+=parseInt(_0x232027[_0x5c5b9a(0x1f8)][_0x125841][_0x5c5b9a(0x1ea)][_0x45c1fa][_0x5c5b9a(0x1e1)]('input')[_0x5c5b9a(0x1ec)]);}_0x232027['rows'][_0x125841]['cells'][_0x48df52]['innerHTML']=_0x48d69f;}for(_0x45c1fa=0x1;_0x45c1fa<_0x48df52;_0x45c1fa++){var _0x2a994f=0x0;for(_0x125841=0x0;_0x125841<_0x48df52-0x1;_0x125841++){_0x2a994f+=parseInt(_0x232027[_0x5c5b9a(0x1f8)][_0x125841]['cells'][_0x45c1fa][_0x5c5b9a(0x1e1)]('input')[_0x5c5b9a(0x1ec)]);}_0x232027['rows'][_0x48df52-0x1]['cells'][_0x45c1fa][_0x5c5b9a(0x1f3)]=_0x2a994f;}var _0x7d7103=0x0;for(_0x125841=0x0;_0x125841<_0x48df52-0x1;_0x125841++){_0x7d7103+=parseInt(_0x232027[_0x5c5b9a(0x1f8)][_0x125841][_0x5c5b9a(0x1ea)][_0x125841+0x1][_0x5c5b9a(0x1e1)](_0x5c5b9a(0x1fa))['value']);}_0x232027[_0x5c5b9a(0x1f8)][_0x48df52-0x1][_0x5c5b9a(0x1ea)][_0x48df52][_0x5c5b9a(0x1f3)]=_0x7d7103;var _0x7405d0=0x0;for(_0x125841=0x0;_0x125841<_0x48df52-0x1;_0x125841++){_0x7405d0+=parseInt(_0x232027[_0x5c5b9a(0x1f8)][_0x125841]['cells'][_0x48df52-0x1-_0x125841][_0x5c5b9a(0x1e1)](_0x5c5b9a(0x1fa))[_0x5c5b9a(0x1ec)]);}_0x232027[_0x5c5b9a(0x1f8)][_0x48df52-0x1][_0x5c5b9a(0x1ea)][0x0][_0x5c5b9a(0x1f3)]=_0x7405d0,CalcularValidar();}function CalcularValidar(){var _0x26436b=_0x411e,_0x2a70be=document[_0x26436b(0x1e4)](_0x26436b(0x1fb)),_0x2eab8d=_0x2a70be[_0x26436b(0x1f8)]['length'],_0x472bd5=0x0,_0x4d233b=0x0,_0x4cced4=0x0;for(_0x4d233b=0x1;_0x4d233b<_0x2eab8d;_0x4d233b++){_0x4cced4+=parseInt(_0x2a70be[_0x26436b(0x1f8)][0x0][_0x26436b(0x1ea)][_0x4d233b][_0x26436b(0x1e1)](_0x26436b(0x1fa))[_0x26436b(0x1ec)]);}for(_0x472bd5=0x0;_0x472bd5<_0x2eab8d-0x1;_0x472bd5++){var _0x22546f=0x0;for(_0x4d233b=0x1;_0x4d233b<_0x2eab8d;_0x4d233b++){_0x22546f+=parseInt(_0x2a70be[_0x26436b(0x1f8)][_0x472bd5][_0x26436b(0x1ea)][_0x4d233b][_0x26436b(0x1e1)](_0x26436b(0x1fa))[_0x26436b(0x1ec)]);}if(_0x22546f!==_0x4cced4){mostrarResultado(![]);return;}}for(_0x4d233b=0x1;_0x4d233b<_0x2eab8d;_0x4d233b++){var _0x52ad14=0x0;for(_0x472bd5=0x0;_0x472bd5<_0x2eab8d-0x1;_0x472bd5++){_0x52ad14+=parseInt(_0x2a70be[_0x26436b(0x1f8)][_0x472bd5][_0x26436b(0x1ea)][_0x4d233b][_0x26436b(0x1e1)](_0x26436b(0x1fa))['value']);}if(_0x52ad14!==_0x4cced4){mostrarResultado(![]);return;}}var _0x15ef29=0x0;for(_0x472bd5=0x0;_0x472bd5<_0x2eab8d-0x1;_0x472bd5++){_0x15ef29+=parseInt(_0x2a70be['rows'][_0x472bd5][_0x26436b(0x1ea)][_0x472bd5+0x1]['querySelector'](_0x26436b(0x1fa))[_0x26436b(0x1ec)]);}if(_0x15ef29!==_0x4cced4){mostrarResultado(![]);return;}var _0x4608a8=0x0;for(_0x472bd5=0x0;_0x472bd5<_0x2eab8d-0x1;_0x472bd5++){_0x4608a8+=parseInt(_0x2a70be[_0x26436b(0x1f8)][_0x472bd5][_0x26436b(0x1ea)][_0x2eab8d-0x1-_0x472bd5][_0x26436b(0x1e1)](_0x26436b(0x1fa))[_0x26436b(0x1ec)]);}if(_0x4608a8!==_0x4cced4){mostrarResultado(![]);return;}}function mostrarResultado(_0x295806){var _0x5b2ba9=_0x411e,_0x4db58d=document[_0x5b2ba9(0x1e4)](_0x5b2ba9(0x1df));_0x295806?(_0x4db58d['innerHTML']='¡Es\x20un\x20cuadrado\x20mágico!',_0x4db58d[_0x5b2ba9(0x1e3)][_0x5b2ba9(0x1e6)]=rgb(0xfc,0xbc,0x1d)):(_0x4db58d[_0x5b2ba9(0x1f3)]=_0x5b2ba9(0x1d9),_0x4db58d[_0x5b2ba9(0x1e3)][_0x5b2ba9(0x1e6)]='red');}
+function Generar() {
+    //Esta instruccion borra las columnas y renglones de la tabla
+    document.getElementById("cuadrado").innerHTML = "";
+
+    //Agregamos renglones y columnas
+    var tabla = document.getElementById("cuadrado");
+    var lado = parseInt(document.getElementById("lados").value);
+    var celda = "", nuevaFila = "", r = 0, c = 0;
+
+    for (r = 0; r < lado; r++) {
+        nuevaFila = tabla.insertRow(-1);
+        celda = nuevaFila.insertCell(0);
+        celda.innerHTML = "";
+        celda.style.border = "none";
+        for (c = 0; c < lado; c++) {
+            celda = nuevaFila.insertCell(-1);
+            var entrada = document.createElement("input");
+            entrada.setAttribute("type", "number");
+            entrada.setAttribute("required", "required");
+            entrada.setAttribute("value", aleatorios());
+            entrada.setAttribute("style", "width:50px;");
+            celda.appendChild(entrada);
+
+        }
+        var celda = nuevaFila.insertCell(-1);
+        celda.innerHTML = "suma";
+    }
+
+    var nuevaFila = tabla.insertRow(-1);
+    for (c = 0; c < lado + 2; c++) {
+        celda = nuevaFila.insertCell(-1);
+        celda.innerHTML = "suma";
+
+    }
+    tabla.rows[lado].cells[c - 1].innerHTML = "diagonalder";
+    tabla.rows[lado].cells[0].innerHTML = "diagonalizq";
+    Calcular();
+}
+
+function aleatorios() {
+    return Math.floor(Math.random() * 100);
+}
+
+function ejemploMagico() {
+    var tabla = document.getElementById("cuadrado");
+    for (let r = 0; r < document.getElementById("lados").value; r++) {
+        for (let c = 1; c <= document.getElementById("lados").value; c++) {
+            tabla.rows[r].cells[c].querySelector("input").value = document.getElementById("lados").value;
+
+        }
+
+    }
+    document.getElementById("verificar").innerHTML = "¡Es un cuadrado mágico!";
+    document.getElementById("verificar").style = "color: rgb(252, 188, 29)";
+    Calcular();
+}
+
+function ejemploCuadrado() {
+    var tabla = document.getElementById("cuadrado");
+    var r = 0, c = 0
+    for (r = 0; r < document.getElementById("lados").value; r++) {
+        for (c = 1; c <= document.getElementById("lados").value; c++) {
+            tabla.rows[r].cells[c].querySelector("input").value = aleatorios();
+
+        }
+
+    }
+    tabla.rows[r - 1].cells[c - 1].querySelector("input").value = -1;
+
+    document.getElementById("verificar").innerHTML = "NO es un cuadrado mágico";
+    document.getElementById("verificar").style = "color: red";
+    Calcular();
+}
+
+function Calcular() {
+    var tabla = document.getElementById("cuadrado");
+    var lado = tabla.rows.length;
+    var r = 0, c = 0;
+
+    // Suma de filas.
+    for (r = 0; r < lado - 1; r++) {
+        var sumaFila = 0;
+        for (c = 1; c < lado; c++) {
+            sumaFila += parseInt(tabla.rows[r].cells[c].querySelector('input').value);
+        }
+        tabla.rows[r].cells[lado].innerHTML = sumaFila;
+    }
+
+    // Suma de columnas.
+    for (c = 1; c < lado; c++) {
+        var sumaColumna = 0;
+        for (r = 0; r < lado - 1; r++) {
+            sumaColumna += parseInt(tabla.rows[r].cells[c].querySelector('input').value);
+        }
+        tabla.rows[lado - 1].cells[c].innerHTML = sumaColumna;
+    }
+
+    // Suma de la diagonal1.
+    var sumaDiagonal1 = 0;
+    for (r = 0; r < lado - 1; r++) {
+        sumaDiagonal1 += parseInt(tabla.rows[r].cells[r + 1].querySelector('input').value);
+    }
+    tabla.rows[lado - 1].cells[lado].innerHTML = sumaDiagonal1;
+
+    // Suma de la diagonal2.
+    var sumaDiagonal2 = 0;
+    for (r = 0; r < lado - 1; r++) {
+        sumaDiagonal2 += parseInt(tabla.rows[r].cells[lado - 1 - r].querySelector('input').value);
+    }
+    tabla.rows[lado - 1].cells[0].innerHTML = sumaDiagonal2;
+
+    CalcularValidar();
+}
+
+function CalcularValidar() {
+    var tabla = document.getElementById("cuadrado");
+    var lado = tabla.rows.length;
+    var r = 0, c = 0;
+
+    var sumaObjetivo = 0; // Esta será la suma objetivo para comparar todas las sumas.
+    for (c = 1; c < lado; c++) {
+        sumaObjetivo += parseInt(tabla.rows[0].cells[c].querySelector('input').value);
+    }
+
+    // Suma de filas.
+    for (r = 0; r < lado - 1; r++) {
+        var sumaFila = 0;
+        for (c = 1; c < lado; c++) {
+            sumaFila += parseInt(tabla.rows[r].cells[c].querySelector('input').value);
+        }
+        if (sumaFila !== sumaObjetivo) {
+            mostrarResultado(false);
+            return;
+        }
+    }
+
+    // Suma de columnas.
+    for (c = 1; c < lado; c++) {
+        var sumaColumna = 0;
+        for (r = 0; r < lado - 1; r++) {
+            sumaColumna += parseInt(tabla.rows[r].cells[c].querySelector('input').value);
+        }
+        if (sumaColumna !== sumaObjetivo) {
+            mostrarResultado(false);
+            return;
+        }
+    }
+
+    // Suma de la diagonal1.
+    var sumaDiagonal1 = 0;
+    for (r = 0; r < lado - 1; r++) {
+        sumaDiagonal1 += parseInt(tabla.rows[r].cells[r + 1].querySelector('input').value);
+    }
+    if (sumaDiagonal1 !== sumaObjetivo) {
+        mostrarResultado(false);
+        return;
+    }
+    
+
+    // Suma de la diagonal2.
+    var sumaDiagonal2 = 0;
+    for (r = 0; r < lado - 1; r++) {
+        sumaDiagonal2 += parseInt(tabla.rows[r].cells[lado - 1 - r].querySelector('input').value);
+    }
+    if (sumaDiagonal2 !== sumaObjetivo) {
+        mostrarResultado(false);
+        return;
+    }
+}
+
+function mostrarResultado(esMagico) {
+    var mensaje = document.getElementById("verificar");
+    if (esMagico) {
+        mensaje.innerHTML = "¡Es un cuadrado mágico!";
+        mensaje.style.color = rgb(252, 188, 29);
+    } else {
+        mensaje.innerHTML = "No es un cuadrado mágico.";
+        mensaje.style.color = "red";
+    }
+}

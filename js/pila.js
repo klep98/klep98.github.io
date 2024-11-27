@@ -1,1 +1,108 @@
-var _0x1ac7ab=_0x4da6;(function(_0x28fd2e,_0x5e36c2){var _0xf5e37a=_0x4da6,_0xc938bc=_0x28fd2e();while(!![]){try{var _0x50a4b9=parseInt(_0xf5e37a(0x187))/0x1*(-parseInt(_0xf5e37a(0x18b))/0x2)+-parseInt(_0xf5e37a(0x1a5))/0x3+-parseInt(_0xf5e37a(0x1a0))/0x4+-parseInt(_0xf5e37a(0x194))/0x5*(parseInt(_0xf5e37a(0x183))/0x6)+parseInt(_0xf5e37a(0x18c))/0x7*(-parseInt(_0xf5e37a(0x17d))/0x8)+parseInt(_0xf5e37a(0x197))/0x9+-parseInt(_0xf5e37a(0x189))/0xa*(-parseInt(_0xf5e37a(0x182))/0xb);if(_0x50a4b9===_0x5e36c2)break;else _0xc938bc['push'](_0xc938bc['shift']());}catch(_0x3e54d1){_0xc938bc['push'](_0xc938bc['shift']());}}}(_0x44f8,0x58987));const palabrasAleatorias=[_0x1ac7ab(0x199),'libro',_0x1ac7ab(0x18a),_0x1ac7ab(0x17f),'guitarra',_0x1ac7ab(0x1a6),'camino','sombra',_0x1ac7ab(0x196),'montaña','río',_0x1ac7ab(0x198),_0x1ac7ab(0x19c),_0x1ac7ab(0x17b),'puente'];function Aleatorias(){var _0x458876=_0x1ac7ab,_0x49f5dd=Math[_0x458876(0x19b)](Math[_0x458876(0x1a4)]()*palabrasAleatorias[_0x458876(0x1a2)]);document['getElementById'](_0x458876(0x1a3))[_0x458876(0x193)]=palabrasAleatorias[_0x49f5dd],document[_0x458876(0x186)](_0x458876(0x184))[_0x458876(0x193)]=_0x458876(0x1ae)+palabrasAleatorias[_0x49f5dd]+')',document[_0x458876(0x186)](_0x458876(0x180))['value']=_0x458876(0x1ad)+palabrasAleatorias[_0x49f5dd]+')';}function CambioTexto(){var _0x255a71=_0x1ac7ab,_0x566072=document['getElementById'](_0x255a71(0x1a3))[_0x255a71(0x193)];document['getElementById'](_0x255a71(0x184))[_0x255a71(0x193)]='Push('+_0x566072+')',document[_0x255a71(0x186)](_0x255a71(0x180))[_0x255a71(0x193)]=_0x255a71(0x1ad)+_0x566072+')';}function Push(){var _0x590c92=_0x1ac7ab;if(document[_0x590c92(0x186)](_0x590c92(0x1a3))[_0x590c92(0x193)][_0x590c92(0x1ab)]()!==''){document[_0x590c92(0x186)](_0x590c92(0x181))['innerHTML']='';var _0x127163=document[_0x590c92(0x18f)]('tr'),_0x47398b=document['createElement']('td');_0x47398b[_0x590c92(0x17e)]=document[_0x590c92(0x186)](_0x590c92(0x1a3))[_0x590c92(0x193)],_0x127163[_0x590c92(0x1ac)](_0x47398b);var _0xd21045=document['getElementById'](_0x590c92(0x188));document[_0x590c92(0x186)](_0x590c92(0x1aa))['textContent']=_0x590c92(0x18e),_0xd21045[_0x590c92(0x1a1)](_0x127163,_0xd21045[_0x590c92(0x1af)][0x0]);}else document[_0x590c92(0x186)]('mensaje')[_0x590c92(0x195)]=_0x590c92(0x185);}function Pop(){var _0x20cc58=_0x1ac7ab,_0x16a1fc=document[_0x20cc58(0x186)](_0x20cc58(0x188));_0x16a1fc['hasChildNodes']()?(document[_0x20cc58(0x186)](_0x20cc58(0x181))[_0x20cc58(0x195)]=_0x20cc58(0x19d)+_0x16a1fc['firstChild'][_0x20cc58(0x17e)],_0x16a1fc[_0x20cc58(0x19e)](_0x16a1fc[_0x20cc58(0x1a7)]),_0x16a1fc['hasChildNodes']()?document[_0x20cc58(0x186)](_0x20cc58(0x1aa))[_0x20cc58(0x17e)]=_0x20cc58(0x18e):document[_0x20cc58(0x186)]('topLabel')['textContent']=''):document['getElementById'](_0x20cc58(0x181))[_0x20cc58(0x195)]=_0x20cc58(0x1a8);}function _0x44f8(){var _0x2e933a=['innerHTML','fuego','4869576YOFvsf','luz','sol','No\x20hay\x20elementos\x20en\x20la\x20pila.','floor','jardín','Se\x20eliminó\x20del\x20tope\x20','removeChild','Sí\x20se\x20encuentra.','78248mWYOZD','insertBefore','length','Elemento','random','1867359TDbrQG','ventana','firstChild','No\x20hay\x20elementos\x20para\x20hacer\x20el\x20Pop.','false','topLabel','trim','appendChild','Find(','Push(','children','arena','En\x20el\x20tope\x20de\x20la\x20pila\x20se\x20encuentra\x20','4268720hneGqn','textContent','nube','iFind','mensaje','10027523baHajq','8022bkXBHd','iPush','No\x20se\x20aceptan\x20cadenas\x20vacías.','getElementById','33drNbfR','tabla','20obYASs','café','42186NzBTjO','7HbWHzl','hasChildNodes','tope\x20→','createElement','No\x20se\x20encuentra.','childNodes','Se\x20hizo\x20clear\x20en\x20la\x20pila','value','485nTKBVR'];_0x44f8=function(){return _0x2e933a;};return _0x44f8();}function _0x4da6(_0x104977,_0x495a45){var _0x44f8a9=_0x44f8();return _0x4da6=function(_0x4da637,_0x3afe27){_0x4da637=_0x4da637-0x17b;var _0x3a57fd=_0x44f8a9[_0x4da637];return _0x3a57fd;},_0x4da6(_0x104977,_0x495a45);}function Peek(){var _0xd7ee08=_0x1ac7ab,_0x450537=document[_0xd7ee08(0x186)](_0xd7ee08(0x188));_0x450537['hasChildNodes']()?(document[_0xd7ee08(0x186)](_0xd7ee08(0x181))[_0xd7ee08(0x195)]=_0xd7ee08(0x17c)+_0x450537['firstChild'][_0xd7ee08(0x17e)],document[_0xd7ee08(0x186)]('topLabel')[_0xd7ee08(0x17e)]=_0xd7ee08(0x18e)):document[_0xd7ee08(0x186)](_0xd7ee08(0x181))[_0xd7ee08(0x195)]=_0xd7ee08(0x19a);}function Clear(){var _0x2c7e38=_0x1ac7ab;document[_0x2c7e38(0x186)](_0x2c7e38(0x188))['textContent']='',document[_0x2c7e38(0x186)](_0x2c7e38(0x1aa))[_0x2c7e38(0x17e)]='',document[_0x2c7e38(0x186)](_0x2c7e38(0x181))[_0x2c7e38(0x195)]=_0x2c7e38(0x192);}function Find(){var _0x5c12d9=_0x1ac7ab,_0x2004ad=document['getElementById']('tabla'),_0x330779=![];if(_0x2004ad[_0x5c12d9(0x18d)]()){for(let _0x5bb92f=0x0;_0x5bb92f<_0x2004ad[_0x5c12d9(0x191)][_0x5c12d9(0x1a2)];_0x5bb92f++){let _0xb0ade2=_0x2004ad[_0x5c12d9(0x191)][_0x5bb92f][_0x5c12d9(0x191)][0x0][_0x5c12d9(0x17e)];if(_0xb0ade2===document[_0x5c12d9(0x186)](_0x5c12d9(0x1a3))['value']){document[_0x5c12d9(0x186)](_0x5c12d9(0x181))[_0x5c12d9(0x195)]=_0x5c12d9(0x19f),_0x330779=!![];break;}}!_0x330779&&(document[_0x5c12d9(0x186)](_0x5c12d9(0x181))[_0x5c12d9(0x195)]=_0x5c12d9(0x190));}else document[_0x5c12d9(0x186)](_0x5c12d9(0x181))[_0x5c12d9(0x195)]='No\x20hay\x20elementos\x20en\x20la\x20pila.';}function isEmpty(){var _0x3a3fd5=_0x1ac7ab,_0xfe8725=document['getElementById'](_0x3a3fd5(0x188));!_0xfe8725[_0x3a3fd5(0x18d)]()?document[_0x3a3fd5(0x186)](_0x3a3fd5(0x181))[_0x3a3fd5(0x195)]='true':document[_0x3a3fd5(0x186)]('mensaje')[_0x3a3fd5(0x195)]=_0x3a3fd5(0x1a9);}
+const palabrasAleatorias = [
+    "sol", "libro", "café", "nube", "guitarra", 
+    "ventana", "camino", "sombra", "fuego", "montaña", 
+    "río", "luz", "jardín", "arena", "puente"
+];
+
+// Función que asigna un valor aleatorio al campo de entrada
+function Aleatorias() {
+    var indice = Math.floor(Math.random() * palabrasAleatorias.length);
+    document.getElementById("Elemento").value = palabrasAleatorias[indice];
+    document.getElementById("iPush").value = `Push(${palabrasAleatorias[indice]})`;
+    document.getElementById("iFind").value = `Find(${palabrasAleatorias[indice]})`;
+}
+
+// Función que actualiza el texto del botón Push y Find
+function CambioTexto() {
+    var texto = document.getElementById("Elemento").value;
+    document.getElementById("iPush").value = `Push(${texto})`;
+    document.getElementById("iFind").value = `Find(${texto})`; // Corregido
+}
+
+// Método Push para agregar un elemento a la pila
+function Push() {
+    // Validar que el input no esté vacío
+    if (document.getElementById("Elemento").value.trim() !== "") {
+        document.getElementById("mensaje").innerHTML = "";
+
+        var renglon = document.createElement("tr");
+        var celda = document.createElement("td");
+        celda.textContent = document.getElementById("Elemento").value;
+        renglon.appendChild(celda);
+        var rt = document.getElementById("tabla");
+
+        // Agregar "tope->" como texto simple
+        document.getElementById("topLabel").textContent = "tope →";
+
+        // Insertar la nueva palabra en la tabla
+        rt.insertBefore(renglon, rt.children[0]);
+    } else {
+        document.getElementById("mensaje").innerHTML = "No se aceptan cadenas vacías.";
+    }
+}
+
+// Método Pop para eliminar el elemento del tope de la pila
+function Pop() {
+    var rt = document.getElementById("tabla");
+    if (rt.hasChildNodes()) {
+        document.getElementById("mensaje").innerHTML = `Se eliminó del tope ${rt.firstChild.textContent}`;
+        rt.removeChild(rt.firstChild);
+        // Actualizar el texto del tope
+        if (rt.hasChildNodes()) {
+            document.getElementById("topLabel").textContent = "tope →";
+        } else {
+            document.getElementById("topLabel").textContent = ""; // Si no hay elementos, vaciar
+        }
+    } else {
+        document.getElementById("mensaje").innerHTML = "No hay elementos para hacer el Pop.";
+    }
+}
+
+// Método Peek para ver el elemento en el tope de la pila
+function Peek() {
+    var rt = document.getElementById("tabla");
+    if (rt.hasChildNodes()) {
+        document.getElementById("mensaje").innerHTML = `En el tope de la pila se encuentra ${rt.firstChild.textContent}`;
+        document.getElementById("topLabel").textContent = "tope →"; // Mantener la etiqueta de tope
+    } else {
+        document.getElementById("mensaje").innerHTML = "No hay elementos en la pila.";
+    }
+}
+
+// Método Clear para vaciar la pila
+function Clear() {
+    document.getElementById("tabla").textContent = ""; // Limpiar la tabla
+    document.getElementById("topLabel").textContent = ""; // Limpiar la etiqueta de tope
+    document.getElementById("mensaje").innerHTML = "Se hizo clear en la pila"; // Mensaje de confirmación
+}
+
+// Método Find para buscar un elemento en la pila
+function Find() {
+    var rt = document.getElementById("tabla");
+    var control = false; // Corregido a false
+    if (rt.hasChildNodes()) {
+        for (let i = 0; i < rt.childNodes.length; i++) {
+            let nodo = rt.childNodes[i].childNodes[0].textContent; // Acceder al contenido de la celda
+            if (nodo === document.getElementById("Elemento").value) {
+                document.getElementById("mensaje").innerHTML = "Sí se encuentra.";
+                control = true;
+                break;
+            }
+        }
+        if (!control) {
+            document.getElementById("mensaje").innerHTML = "No se encuentra.";
+        }
+    } else {
+        document.getElementById("mensaje").innerHTML = "No hay elementos en la pila.";
+    }
+}
+
+// Método isEmpty para verificar si la pila está vacía
+function isEmpty() {
+    var rt = document.getElementById("tabla");
+    if (!rt.hasChildNodes()) { // Cambiar la condición
+        document.getElementById("mensaje").innerHTML = "true"; // Pila vacía
+    } else {
+        document.getElementById("mensaje").innerHTML = "false"; // Pila no vacía
+    }
+}

@@ -1,1 +1,24 @@
-(function(_0x4012a3,_0xb859c6){var _0x936dd1=_0xa7d1,_0xa24c80=_0x4012a3();while(!![]){try{var _0x148c10=-parseInt(_0x936dd1(0x102))/0x1+-parseInt(_0x936dd1(0x10d))/0x2+-parseInt(_0x936dd1(0x100))/0x3*(parseInt(_0x936dd1(0x10b))/0x4)+-parseInt(_0x936dd1(0x112))/0x5+parseInt(_0x936dd1(0x107))/0x6+parseInt(_0x936dd1(0x109))/0x7*(parseInt(_0x936dd1(0x103))/0x8)+parseInt(_0x936dd1(0x10f))/0x9;if(_0x148c10===_0xb859c6)break;else _0xa24c80['push'](_0xa24c80['shift']());}catch(_0x25088f){_0xa24c80['push'](_0xa24c80['shift']());}}}(_0x2a41,0x5662e));function multiplos3(){var _0x41f71b=_0xa7d1;if(!isNaN(document['getElementById']('num1')[_0x41f71b(0x105)])&&!isNaN(document[_0x41f71b(0xff)](_0x41f71b(0x10a))[_0x41f71b(0x105)])){var _0x326b59=parseInt(document[_0x41f71b(0xff)](_0x41f71b(0x10c))[_0x41f71b(0x105)]),_0x26d5ab=parseInt(document[_0x41f71b(0xff)](_0x41f71b(0x10a))[_0x41f71b(0x105)]),_0x42d5d6='';for(let _0x1c9373=_0x326b59;_0x1c9373<=_0x26d5ab;_0x1c9373++){_0x1c9373%0x3==0x0&&(_0x42d5d6+=_0x1c9373+_0x41f71b(0x104));}if(_0x326b59!=_0x26d5ab)for(let _0x3fccd8=_0x326b59;_0x3fccd8>=_0x26d5ab;_0x3fccd8--){_0x3fccd8%0x3==0x0&&(_0x42d5d6+=_0x3fccd8+_0x41f71b(0x104));}document[_0x41f71b(0xff)](_0x41f71b(0x106))[_0x41f71b(0x101)]=_0x41f71b(0x10e)+_0x326b59+_0x41f71b(0x110)+_0x26d5ab+_0x41f71b(0x108)+_0x42d5d6;}else document['getElementById'](_0x41f71b(0x106))[_0x41f71b(0x101)]=_0x41f71b(0x111);}function _0xa7d1(_0x525935,_0x3f4064){var _0x2a417e=_0x2a41();return _0xa7d1=function(_0xa7d1db,_0x485819){_0xa7d1db=_0xa7d1db-0xff;var _0x1b4071=_0x2a417e[_0xa7d1db];return _0x1b4071;},_0xa7d1(_0x525935,_0x3f4064);}function _0x2a41(){var _0x2e8654=['318mHvkbb','innerHTML','420567DEiFSP','8mOQOOM','\x20<br>','value','textoResultado','2543970fiVeOk','\x20son:\x20<br>\x20','96236IkDlLv','num2','88sPjLIn','num1','300386JMWPuY','Resultado:\x20Los\x20múltiplos\x20de\x203\x20entre\x20','5994126gtPCXU','\x20y\x20','Existe\x20un\x20error\x20en\x20el\x20tipo\x20de\x20dato','884135ThqZBi','getElementById'];_0x2a41=function(){return _0x2e8654;};return _0x2a41();}
+function multiplos3() {
+    if(!isNaN(document.getElementById("num1").value) && !isNaN(document.getElementById("num2").value)){
+        var a = parseInt(document.getElementById("num1").value);
+        var b = parseInt(document.getElementById("num2").value);
+        var multiplos = "";
+
+        for (let i = a; i <= b; i++) {
+            if (i % 3 == 0) {
+                multiplos += `${i} <br>`;
+            }
+        }
+
+        if(a!=b){
+            for (let i = a; i >= b; i--) {
+                if (i % 3 == 0) {
+                    multiplos += `${i} <br>`;
+                }
+            }
+        }
+        document.getElementById("textoResultado").innerHTML = `Resultado: Los múltiplos de 3 entre ${a} y ${b} son: <br> ${multiplos}`;
+    } else{
+        document.getElementById("textoResultado").innerHTML = `Existe un error en el tipo de dato`;
+    }
+}

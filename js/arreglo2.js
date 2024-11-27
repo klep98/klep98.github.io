@@ -1,1 +1,154 @@
-(function(_0x537e96,_0x4299d5){var _0x548945=_0x5e5c,_0x377f36=_0x537e96();while(!![]){try{var _0x1b620c=parseInt(_0x548945(0x1be))/0x1*(parseInt(_0x548945(0x1bb))/0x2)+-parseInt(_0x548945(0x1c7))/0x3*(-parseInt(_0x548945(0x1d9))/0x4)+-parseInt(_0x548945(0x1cb))/0x5*(parseInt(_0x548945(0x1ca))/0x6)+-parseInt(_0x548945(0x1c4))/0x7*(-parseInt(_0x548945(0x1d5))/0x8)+-parseInt(_0x548945(0x1c9))/0x9+-parseInt(_0x548945(0x1cc))/0xa*(parseInt(_0x548945(0x1d7))/0xb)+-parseInt(_0x548945(0x1b0))/0xc;if(_0x1b620c===_0x4299d5)break;else _0x377f36['push'](_0x377f36['shift']());}catch(_0x640e4f){_0x377f36['push'](_0x377f36['shift']());}}}(_0x36c0,0x879e6));var contador=0x0;function Capturar(){var _0x5aa153=_0x5e5c;document[_0x5aa153(0x1b8)](_0x5aa153(0x1da))[_0x5aa153(0x1d1)]=_0x5aa153(0x1d8)+contador+']';var _0x4ec825=document['getElementById'](_0x5aa153(0x1d3)),_0x46d734=_0x4ec825['insertCell'](-0x1);_0x46d734[_0x5aa153(0x1d1)]='['+contador+']';var _0x8e9a2f=document[_0x5aa153(0x1b8)](_0x5aa153(0x1ba)),_0x2d2d0a=_0x8e9a2f['insertCell'](-0x1);_0x2d2d0a[_0x5aa153(0x1d1)]=document['getElementById'](_0x5aa153(0x1c5))[_0x5aa153(0x1b9)];var _0x13beef=document['getElementById']('tablaVertical'),_0x93bf37=_0x13beef[_0x5aa153(0x1b6)](-0x1),_0x4349cd=_0x93bf37[_0x5aa153(0x1bc)](0x0)[_0x5aa153(0x1d1)]='['+contador+']',_0x2c9411=_0x93bf37[_0x5aa153(0x1bc)](0x1)[_0x5aa153(0x1d1)]=document[_0x5aa153(0x1b8)](_0x5aa153(0x1c5))[_0x5aa153(0x1b9)];contador==0x9?(document[_0x5aa153(0x1b8)]('capturarBoton')[_0x5aa153(0x1ce)]=!![],document[_0x5aa153(0x1b8)](_0x5aa153(0x1c5))[_0x5aa153(0x1b9)]='',document[_0x5aa153(0x1b8)](_0x5aa153(0x1c5))['disabled']=!![],document[_0x5aa153(0x1b8)]('generarBoton')[_0x5aa153(0x1ce)]=![]):(contador++,document['getElementById'](_0x5aa153(0x1da))[_0x5aa153(0x1d1)]=_0x5aa153(0x1d8)+contador+']',aleatorios());}function aleatorios(){var _0x5b0aed=_0x5e5c;document['getElementById'](_0x5b0aed(0x1c5))[_0x5b0aed(0x1b9)]=Math[_0x5b0aed(0x1c3)](Math[_0x5b0aed(0x1b4)]()*0x3e8);}function _0x36c0(){var _0xe8e90e=['1243584qLrvKg','posicionDisplay','tablaVertical3','El\x20promedio\x20es\x20','promedioResultado','renglonDato2','medianaResultado','6780384boVtSt','menorResultado','rows','El\x20menor\x20es\x20','random','tablHorizontal','insertRow','renglonIndice3','getElementById','value','renglonDato','914lmkvmI','insertCell','La\x20mediana\x20es:\x20','1973NJprqj','tablaHorizontal2','El\x20mayor\x20es\x20','children','tablaVertical2','floor','1494332bpmJNn','elementoInput','renglonDato3','9RNAswm','generarBoton','5831190mxQJjx','1314WpVqCP','8325STAGIP','3417060mKXuxU','tablaHorizontal','disabled','mayorResultado','length','innerHTML','sumatoriaResultado','renglonIndice','tablaHorizontal3','24MuLZWb','renglonIndice2','11QDXOVr','Elemento['];_0x36c0=function(){return _0xe8e90e;};return _0x36c0();}function Calcular(){var _0x12e141=_0x5e5c,_0x4cb4ec=document[_0x12e141(0x1b8)]('renglonDato')['children'],_0x288125=parseInt(_0x4cb4ec[0x0][_0x12e141(0x1d1)]),_0x397978=parseInt(_0x4cb4ec[0x0][_0x12e141(0x1d1)]),_0x48914e=0x0,_0x273a1a=0x0;for(let _0x261da2=0x0;_0x261da2<_0x4cb4ec[_0x12e141(0x1d0)];_0x261da2++){_0x288125>parseInt(_0x4cb4ec[_0x261da2][_0x12e141(0x1d1)])&&(_0x288125=parseInt(_0x4cb4ec[_0x261da2][_0x12e141(0x1d1)])),_0x397978<parseInt(_0x4cb4ec[_0x261da2][_0x12e141(0x1d1)])&&(_0x397978=parseInt(_0x4cb4ec[_0x261da2][_0x12e141(0x1d1)])),_0x48914e+=parseInt(_0x4cb4ec[_0x261da2][_0x12e141(0x1d1)]);}_0x273a1a=_0x48914e/_0x4cb4ec[_0x12e141(0x1d0)],document[_0x12e141(0x1b8)](_0x12e141(0x1b1))[_0x12e141(0x1d1)]=_0x12e141(0x1b3)+_0x288125,document[_0x12e141(0x1b8)](_0x12e141(0x1cf))[_0x12e141(0x1d1)]=_0x12e141(0x1c0)+_0x397978,document[_0x12e141(0x1b8)](_0x12e141(0x1d2))[_0x12e141(0x1d1)]='La\x20suma\x20es\x20'+_0x48914e,document[_0x12e141(0x1b8)](_0x12e141(0x1dd))[_0x12e141(0x1d1)]=_0x12e141(0x1dc)+_0x273a1a,document[_0x12e141(0x1b8)](_0x12e141(0x1bf))['innerHTML']=document[_0x12e141(0x1b8)]('tablaHorizontal')['innerHTML'],document[_0x12e141(0x1b8)](_0x12e141(0x1bf))[_0x12e141(0x1b2)][0x0]['id']='renglonIndice2',document['getElementById'](_0x12e141(0x1bf))[_0x12e141(0x1b2)][0x1]['id']='renglonDato2',_0x4cb4ec=document['getElementById'](_0x12e141(0x1de))[_0x12e141(0x1c1)];for(let _0x2770a1=0x0;_0x2770a1<_0x4cb4ec[_0x12e141(0x1d0)];_0x2770a1++){for(let _0x293ba3=0x0;_0x293ba3<_0x4cb4ec[_0x12e141(0x1d0)];_0x293ba3++){if(parseInt(_0x4cb4ec[_0x2770a1]['innerHTML'])<parseInt(_0x4cb4ec[_0x293ba3][_0x12e141(0x1d1)])){var _0x272262=_0x4cb4ec[_0x2770a1][_0x12e141(0x1d1)];_0x4cb4ec[_0x2770a1][_0x12e141(0x1d1)]=_0x4cb4ec[_0x293ba3][_0x12e141(0x1d1)],_0x4cb4ec[_0x293ba3][_0x12e141(0x1d1)]=_0x272262;}}}document['getElementById'](_0x12e141(0x1d4))[_0x12e141(0x1d1)]=document[_0x12e141(0x1b8)](_0x12e141(0x1cd))[_0x12e141(0x1d1)],document['getElementById'](_0x12e141(0x1d4))['rows'][0x0]['id']=_0x12e141(0x1b7),document['getElementById']('tablaHorizontal3')[_0x12e141(0x1b2)][0x1]['id']=_0x12e141(0x1c6),_0x4cb4ec=document[_0x12e141(0x1b8)](_0x12e141(0x1c6))[_0x12e141(0x1c1)];for(let _0x2a6693=0x0;_0x2a6693<_0x4cb4ec[_0x12e141(0x1d0)];_0x2a6693++){for(let _0x59668a=0x0;_0x59668a<_0x4cb4ec[_0x12e141(0x1d0)];_0x59668a++){if(parseInt(_0x4cb4ec[_0x2a6693][_0x12e141(0x1d1)])>parseInt(_0x4cb4ec[_0x59668a]['innerHTML'])){var _0x272262=_0x4cb4ec[_0x2a6693][_0x12e141(0x1d1)];_0x4cb4ec[_0x2a6693][_0x12e141(0x1d1)]=_0x4cb4ec[_0x59668a][_0x12e141(0x1d1)],_0x4cb4ec[_0x59668a]['innerHTML']=_0x272262;}}}for(let _0x217e22=0x0;_0x217e22<_0x4cb4ec[_0x12e141(0x1d0)];_0x217e22++){var _0x2c91c9=document[_0x12e141(0x1b8)](_0x12e141(0x1c2)),_0x554519=_0x2c91c9[_0x12e141(0x1b6)](-0x1),_0x5d99b4=_0x554519[_0x12e141(0x1bc)](0x0)['innerHTML']='['+_0x217e22+']',_0x22b113=_0x554519[_0x12e141(0x1bc)](0x1);_0x22b113[_0x12e141(0x1d1)]=_0x4cb4ec[0x9-_0x217e22][_0x12e141(0x1d1)],_0x2c91c9=document['getElementById'](_0x12e141(0x1db)),_0x554519=_0x2c91c9[_0x12e141(0x1b6)](-0x1),_0x5d99b4=_0x554519['insertCell'](0x0)[_0x12e141(0x1d1)]='['+_0x217e22+']',_0x22b113=_0x554519[_0x12e141(0x1bc)](0x1),_0x22b113[_0x12e141(0x1d1)]=_0x4cb4ec[_0x217e22][_0x12e141(0x1d1)];}var _0x4bd89a=(parseInt(_0x4cb4ec[0x4][_0x12e141(0x1d1)])+parseInt(_0x4cb4ec[0x5]['innerHTML']))/0x2;document[_0x12e141(0x1b8)](_0x12e141(0x1af))[_0x12e141(0x1d1)]=_0x12e141(0x1bd)+_0x4bd89a;var _0x133894=document[_0x12e141(0x1b8)](_0x12e141(0x1b5)),_0x3d55d5={},_0x3c1d8b=null,_0x53d9c5=0x0;}function _0x5e5c(_0x2d11a6,_0x487d0f){var _0x36c0bd=_0x36c0();return _0x5e5c=function(_0x5e5cbc,_0x3989f3){_0x5e5cbc=_0x5e5cbc-0x1af;var _0x5a8b8e=_0x36c0bd[_0x5e5cbc];return _0x5a8b8e;},_0x5e5c(_0x2d11a6,_0x487d0f);}function Reiniciar(){var _0x1fb2a5=_0x5e5c;document[_0x1fb2a5(0x1b8)]('capturarBoton')[_0x1fb2a5(0x1ce)]=![],document[_0x1fb2a5(0x1b8)](_0x1fb2a5(0x1c5))[_0x1fb2a5(0x1ce)]=![],document[_0x1fb2a5(0x1b8)](_0x1fb2a5(0x1c8))[_0x1fb2a5(0x1ce)]=!![],document[_0x1fb2a5(0x1b8)](_0x1fb2a5(0x1d3))['innerHTML']='',document[_0x1fb2a5(0x1b8)](_0x1fb2a5(0x1ba))['innerHTML']='',document[_0x1fb2a5(0x1b8)](_0x1fb2a5(0x1d6))[_0x1fb2a5(0x1d1)]='',document[_0x1fb2a5(0x1b8)]('renglonDato2')[_0x1fb2a5(0x1d1)]='',document[_0x1fb2a5(0x1b8)](_0x1fb2a5(0x1b7))[_0x1fb2a5(0x1d1)]='',document[_0x1fb2a5(0x1b8)](_0x1fb2a5(0x1c6))['innerHTML']='',document[_0x1fb2a5(0x1b8)]('tablaVertical')[_0x1fb2a5(0x1d1)]='',document[_0x1fb2a5(0x1b8)]('tablaVertical2')[_0x1fb2a5(0x1d1)]='',document[_0x1fb2a5(0x1b8)]('tablaVertical3')[_0x1fb2a5(0x1d1)]='',document['getElementById']('menorResultado')['innerHTML']='',document[_0x1fb2a5(0x1b8)](_0x1fb2a5(0x1cf))[_0x1fb2a5(0x1d1)]='',document[_0x1fb2a5(0x1b8)](_0x1fb2a5(0x1d2))[_0x1fb2a5(0x1d1)]='',document['getElementById']('promedioResultado')[_0x1fb2a5(0x1d1)]='',document[_0x1fb2a5(0x1b8)](_0x1fb2a5(0x1af))['innerHTML']='',document['getElementById'](_0x1fb2a5(0x1da))[_0x1fb2a5(0x1d1)]='Elemento\x20[0]:',aleatorios(),contador=0x0;}
+var contador = 0;
+function Capturar() {
+    document.getElementById("posicionDisplay").innerHTML = `Elemento[${contador}]`;
+
+    //Agregamos renglones horizontales
+    var renglonIndice = document.getElementById("renglonIndice");
+    var indice = renglonIndice.insertCell(-1);
+    indice.innerHTML = `[${contador}]`;
+
+    var renglonDato = document.getElementById("renglonDato");
+    var dato = renglonDato.insertCell(-1);
+    dato.innerHTML = document.getElementById("elementoInput").value;
+
+    //Agregamos columna de forma vertical
+    var tabla = document.getElementById("tablaVertical");
+    var renglonVertical = tabla.insertRow(-1);
+    var celda1 = renglonVertical.insertCell(0).innerHTML = `[${contador}]`;
+    var celda2 = renglonVertical.insertCell(1).innerHTML = document.getElementById("elementoInput").value;
+
+
+
+    if (contador == 9) {
+        document.getElementById("capturarBoton").disabled = true;
+        document.getElementById("elementoInput").value = "";
+        document.getElementById("elementoInput").disabled = true;
+        document.getElementById("generarBoton").disabled = false;
+    } else {
+        contador++;
+        document.getElementById("posicionDisplay").innerHTML = `Elemento[${contador}]`;
+        aleatorios();
+    }
+}
+
+function aleatorios() {
+    document.getElementById("elementoInput").value = Math.floor(Math.random() * 1000);
+}
+
+function Calcular() {
+    var celdas = document.getElementById("renglonDato").children;
+    var menor = parseInt(celdas[0].innerHTML);
+    var mayor = parseInt(celdas[0].innerHTML);
+    var suma = 0;
+    var promedio = 0;
+
+    for (let i = 0; i < celdas.length; i++) {
+        if (menor > parseInt(celdas[i].innerHTML)) {
+            menor = parseInt(celdas[i].innerHTML);
+        }
+        if (mayor < parseInt(celdas[i].innerHTML)) {
+            mayor = parseInt(celdas[i].innerHTML);
+        }
+        suma += parseInt(celdas[i].innerHTML);
+    }
+    promedio = suma / celdas.length;
+    document.getElementById("menorResultado").innerHTML = `El menor es ${menor}`;
+    document.getElementById("mayorResultado").innerHTML = `El mayor es ${mayor}`;
+    document.getElementById("sumatoriaResultado").innerHTML = `La suma es ${suma}`;
+    document.getElementById("promedioResultado").innerHTML = `El promedio es ${promedio}`;
+
+    //Se copia la tabla horizontal
+    document.getElementById("tablaHorizontal2").innerHTML = document.getElementById("tablaHorizontal").innerHTML;
+    document.getElementById("tablaHorizontal2").rows[0].id = "renglonIndice2";
+    document.getElementById("tablaHorizontal2").rows[1].id = "renglonDato2";
+    celdas = document.getElementById("renglonDato2").children;
+
+    //forma ascendente
+    for (let i = 0; i < celdas.length; i++) {
+        for (let j = 0; j < celdas.length; j++) {
+            if (parseInt(celdas[i].innerHTML) < parseInt(celdas[j].innerHTML)) {
+                var temporal = celdas[i].innerHTML;
+                celdas[i].innerHTML = celdas[j].innerHTML;
+                celdas[j].innerHTML = temporal;
+            }
+        }
+    }
+
+    //Ordenamos en descentente
+    document.getElementById("tablaHorizontal3").innerHTML = document.getElementById("tablaHorizontal").innerHTML;
+    document.getElementById("tablaHorizontal3").rows[0].id = "renglonIndice3";
+    document.getElementById("tablaHorizontal3").rows[1].id = "renglonDato3";
+    celdas = document.getElementById("renglonDato3").children;
+
+    for (let i = 0; i < celdas.length; i++) {
+        for (let j = 0; j < celdas.length; j++) {
+            if (parseInt(celdas[i].innerHTML) > parseInt(celdas[j].innerHTML)) {
+                var temporal = celdas[i].innerHTML;
+                celdas[i].innerHTML = celdas[j].innerHTML;
+                celdas[j].innerHTML = temporal;
+            }
+        }
+    }
+
+    //Se copia la tabla vertical
+
+
+    for (let i = 0; i < celdas.length; i++) {
+        //Forma ascendente
+        var fila = document.getElementById("tablaVertical2")
+        var nuevaFila = fila.insertRow(-1);
+        var valor = nuevaFila.insertCell(0).innerHTML = `[${i}]`;
+
+        var valor1 = nuevaFila.insertCell(1);
+        valor1.innerHTML = celdas[9 - i].innerHTML;
+
+        //Forma descendente
+        fila = document.getElementById("tablaVertical3")
+        nuevaFila = fila.insertRow(-1);
+        valor = nuevaFila.insertCell(0).innerHTML = `[${i}]`;
+        valor1 = nuevaFila.insertCell(1);
+        valor1.innerHTML = celdas[i].innerHTML;
+    }
+
+    // Calcular la mediana. 
+    var mediana = (parseInt(celdas[4].innerHTML) + parseInt(celdas[5].innerHTML)) / 2;
+    document.getElementById("medianaResultado").innerHTML = `La mediana es: ${mediana}`;
+
+    // Calcular la moda.
+    var valores = document.getElementById("tablHorizontal");
+    var frecuencuas = {};
+    var moda = null;
+    var maximaFrecuencia = 0;
+
+
+}
+
+function Reiniciar() {
+    document.getElementById("capturarBoton").disabled = false;
+    document.getElementById("elementoInput").disabled = false;
+    document.getElementById("generarBoton").disabled = true;
+    
+    // Limpiar filas de las tablas horizontales
+    document.getElementById("renglonIndice").innerHTML = "";
+    document.getElementById("renglonDato").innerHTML = "";
+    document.getElementById("renglonIndice2").innerHTML = "";
+    document.getElementById("renglonDato2").innerHTML = "";
+    document.getElementById("renglonIndice3").innerHTML = "";
+    document.getElementById("renglonDato3").innerHTML = "";
+
+    // Limpiar tablas verticales
+    document.getElementById("tablaVertical").innerHTML = "";
+    document.getElementById("tablaVertical2").innerHTML = "";
+    document.getElementById("tablaVertical3").innerHTML = "";
+
+    // Limpiar resultados
+    document.getElementById("menorResultado").innerHTML = "";
+    document.getElementById("mayorResultado").innerHTML = "";
+    document.getElementById("sumatoriaResultado").innerHTML = "";
+    document.getElementById("promedioResultado").innerHTML = "";
+    document.getElementById("medianaResultado").innerHTML = "";
+    document.getElementById("posicionDisplay").innerHTML = "Elemento [0]:";
+    
+    aleatorios(); // Llama a aleatorios para generar un nuevo número
+    contador = 0; // Reinicia el contador
+}

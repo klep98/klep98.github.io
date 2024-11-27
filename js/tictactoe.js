@@ -1,1 +1,159 @@
-function _0x2393(_0x3d4c7a,_0x397639){const _0x52f52f=_0x52f5();return _0x2393=function(_0x239356,_0x489707){_0x239356=_0x239356-0x173;let _0x1e28ea=_0x52f52f[_0x239356];return _0x1e28ea;},_0x2393(_0x3d4c7a,_0x397639);}(function(_0x4707ea,_0x3f900b){const _0x24342f=_0x2393,_0x45f5e7=_0x4707ea();while(!![]){try{const _0x482982=parseInt(_0x24342f(0x194))/0x1*(-parseInt(_0x24342f(0x178))/0x2)+-parseInt(_0x24342f(0x18a))/0x3*(-parseInt(_0x24342f(0x187))/0x4)+-parseInt(_0x24342f(0x17f))/0x5+-parseInt(_0x24342f(0x17e))/0x6+-parseInt(_0x24342f(0x182))/0x7*(parseInt(_0x24342f(0x186))/0x8)+parseInt(_0x24342f(0x195))/0x9*(-parseInt(_0x24342f(0x191))/0xa)+parseInt(_0x24342f(0x193))/0xb*(parseInt(_0x24342f(0x179))/0xc);if(_0x482982===_0x3f900b)break;else _0x45f5e7['push'](_0x45f5e7['shift']());}catch(_0x468be5){_0x45f5e7['push'](_0x45f5e7['shift']());}}}(_0x52f5,0x7fb6d));var control=!![],contador=0x0;function Chturn(_0x3472d8){const _0x1eceaf=_0x2393;_0x3472d8['disabled']=!![],_0x3472d8[_0x1eceaf(0x185)]=control?'O':'\x20✕',document[_0x1eceaf(0x17d)]('turno')[_0x1eceaf(0x184)]=control?'Turno\x20✕':'Turno\x20O',control=!control,Verificar();}function _0x52f5(){const _0x5e35c9=['7677wYZIet','length','createElement','querySelectorAll','add','td:nth-child(2)::after\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x22\x22;\x20/*\x20Es\x20la\x20cadena\x20de\x20texto\x20en\x20blanco\x20para\x20utilizar\x20solo\x20el\x20fondo.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x20/*\x20Establece\x20que\x20es\x20lo\x20que\x20se\x20tomará\x20en\x20cuenta\x20a\x20la\x20hora\x20de\x20dibujar\x20la\x20línea.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x2048%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#2c8cbc;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20pointer-events:\x20none;\x0a\x20\x20\x20\x20}','td:nth-child(1)::after\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x22\x22;\x20/*\x20Es\x20la\x20cadena\x20de\x20texto\x20en\x20blanco\x20para\x20utilizar\x20solo\x20el\x20fondo.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x20/*\x20Establece\x20que\x20es\x20lo\x20que\x20se\x20tomará\x20en\x20cuenta\x20a\x20la\x20hora\x20de\x20dibujar\x20la\x20línea.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x2048%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#2c8cbc;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20pointer-events:\x20none;\x0a\x20\x20\x20\x20}','tr:nth-child(3)::after\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x22\x22;\x20/*\x20Es\x20la\x20cadena\x20de\x20texto\x20en\x20blanco\x20para\x20utilizar\x20solo\x20el\x20fondo.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x20/*\x20Establece\x20que\x20es\x20lo\x20que\x20se\x20tomará\x20en\x20cuenta\x20a\x20la\x20hora\x20de\x20dibujar\x20la\x20línea.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x2048%;\x20/*\x20Es\x20a\x20partir\x20de\x20donde\x20se\x20empieza\x20a\x20dibujar\x20la\x20línea\x20sin\x20tomar\x20en\x20cuenta\x20el\x20grososr.\x20*/\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x200%;\x20/*\x20Es\x20el\x20porcentaje\x20a\x20partir\x20del\x20cual\x20se\x20dibujarpa\x20la\x20línea\x20tomando\x20en\x20cuenta\x20lo\x20que\x20miden\x203\x20casillas\x20por\x20la\x20izquierda.\x20\x20*/\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x200%;\x20/*\x20Es\x20el\x20porcentaje\x20que\x20dejará\x20sin\x20dibujar\x20desde\x20la\x20derecha,\x20\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2010px;\x20/*\x20Establece\x20el\x20grosor\x20de\x20la\x20línea.\x20*/\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20\x20#2c8cbc\x20;\x20/*\x20Color\x20de\x20la\x20línea.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201;\x20/*\x20Estable\x20ce\x20la\x20línea\x20por\x20encima\x20de\x20los\x20objetos.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20pointer-events:\x20none;\x20/*\x20Para\x20que\x20la\x20línea\x20no\x20interfiera\x20con\x20los\x20botones.\x20*/\x0a\x20\x20\x20\x20}','head','14742UaORTj','12XixAsU','Gana\x20','appendChild','parentNode','getElementById','435300XBUhNF','1572425cWfMfN','textContent','td:nth-child(1)\x20>\x20input','952385CPluBw','Empate','innerHTML','value','8xTotvb','12OJrbAb','turno','input[type=button]','984984emSTJm','style','line-diagonal-top-to-bottom','div','tr:nth-child(2)::after\x0a\x20\x20\x20\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x22\x22;\x20/*\x20Es\x20la\x20cadena\x20de\x20texto\x20en\x20blanco\x20para\x20utilizar\x20solo\x20el\x20fondo.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x20/*\x20Establece\x20que\x20es\x20lo\x20que\x20se\x20tomará\x20en\x20cuenta\x20a\x20la\x20hora\x20de\x20dibujar\x20la\x20línea.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x2048%;\x20/*\x20Es\x20a\x20partir\x20de\x20donde\x20se\x20empieza\x20a\x20dibujar\x20la\x20línea\x20sin\x20tomar\x20en\x20cuenta\x20el\x20grososr.\x20*/\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x200%;\x20/*\x20Es\x20el\x20porcentaje\x20a\x20partir\x20del\x20cual\x20se\x20dibujarpa\x20la\x20línea\x20tomando\x20en\x20cuenta\x20lo\x20que\x20miden\x203\x20casillas\x20por\x20la\x20izquierda.\x20\x20*/\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x200%;\x20/*\x20Es\x20el\x20porcentaje\x20que\x20dejará\x20sin\x20dibujar\x20desde\x20la\x20derecha,\x20\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2010px;\x20/*\x20Establece\x20el\x20grosor\x20de\x20la\x20línea.\x20*/\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20\x20#2c8cbc\x20;\x20/*\x20Color\x20de\x20la\x20línea.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201;\x20/*\x20Estable\x20ce\x20la\x20línea\x20por\x20encima\x20de\x20los\x20objetos.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20pointer-events:\x20none;\x20/*\x20Para\x20que\x20la\x20línea\x20no\x20interfiera\x20con\x20los\x20botones.\x20*/\x0a\x20\x20\x20\x20}','classList','disabled','11510WwZpTM','querySelector','18040847pWEydt','81gpBslX'];_0x52f5=function(){return _0x5e35c9;};return _0x52f5();}function Verificar(){const _0x558556=_0x2393;if(++contador==0x9){document['getElementById']('turno')[_0x558556(0x184)]=_0x558556(0x183);return;}var _0x3e307d=document[_0x558556(0x198)]('input[type=button]');if(_0x3e307d[0x0][_0x558556(0x185)]==_0x3e307d[0x1]['value']&&_0x3e307d[0x1][_0x558556(0x185)]==_0x3e307d[0x2][_0x558556(0x185)]&&_0x3e307d[0x0][_0x558556(0x185)]!=''){document['getElementById']('turno')[_0x558556(0x184)]=_0x558556(0x17a)+_0x3e307d[0x0]['value'],Dall();const _0x93d4f2=document[_0x558556(0x197)](_0x558556(0x18b));_0x93d4f2[_0x558556(0x180)]='tr:nth-child(1)::after\x0a\x20\x20\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x22\x22;\x20/*\x20Es\x20la\x20cadena\x20de\x20texto\x20en\x20blanco\x20para\x20utilizar\x20solo\x20el\x20fondo.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x20/*\x20Establece\x20que\x20es\x20lo\x20que\x20se\x20tomará\x20en\x20cuenta\x20a\x20la\x20hora\x20de\x20dibujar\x20la\x20línea.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x2048%;\x20/*\x20Es\x20a\x20partir\x20de\x20donde\x20se\x20empieza\x20a\x20dibujar\x20la\x20línea\x20sin\x20tomar\x20en\x20cuenta\x20el\x20grososr.\x20*/\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x200%;\x20/*\x20Es\x20el\x20porcentaje\x20a\x20partir\x20del\x20cual\x20se\x20dibujarpa\x20la\x20línea\x20tomando\x20en\x20cuenta\x20lo\x20que\x20miden\x203\x20casillas\x20por\x20la\x20izquierda.\x20\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x200%;\x20/*\x20Es\x20el\x20porcentaje\x20que\x20dejará\x20sin\x20dibujar\x20desde\x20la\x20derecha,\x20\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2010px;\x20/*\x20Establece\x20el\x20grosor\x20de\x20la\x20línea.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20\x20#2c8cbc\x20;\x20/*\x20Color\x20de\x20la\x20línea.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201;\x20/*\x20Estable\x20ce\x20la\x20línea\x20por\x20encima\x20de\x20los\x20objetos.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20pointer-events:\x20none;\x20/*\x20Para\x20que\x20la\x20línea\x20no\x20interfiera\x20con\x20los\x20botones.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20}',document['head'][_0x558556(0x17b)](_0x93d4f2);}else{if(_0x3e307d[0x3]['value']==_0x3e307d[0x4][_0x558556(0x185)]&&_0x3e307d[0x4]['value']==_0x3e307d[0x5]['value']&&_0x3e307d[0x3][_0x558556(0x185)]!=''){document[_0x558556(0x17d)](_0x558556(0x188))[_0x558556(0x184)]='Gana\x20'+_0x3e307d[0x3][_0x558556(0x185)],Dall();const _0x1886b2=document[_0x558556(0x197)](_0x558556(0x18b));_0x1886b2[_0x558556(0x180)]=_0x558556(0x18e),document[_0x558556(0x177)][_0x558556(0x17b)](_0x1886b2);}else{if(_0x3e307d[0x6][_0x558556(0x185)]==_0x3e307d[0x7]['value']&&_0x3e307d[0x7]['value']==_0x3e307d[0x8][_0x558556(0x185)]&&_0x3e307d[0x6][_0x558556(0x185)]!=''){document['getElementById'](_0x558556(0x188))['innerHTML']=_0x558556(0x17a)+_0x3e307d[0x6]['value'],Dall();const _0x22c5bb=document[_0x558556(0x197)](_0x558556(0x18b));_0x22c5bb[_0x558556(0x180)]=_0x558556(0x176),document['head'][_0x558556(0x17b)](_0x22c5bb);}else{if(_0x3e307d[0x0][_0x558556(0x185)]==_0x3e307d[0x3][_0x558556(0x185)]&&_0x3e307d[0x3]['value']==_0x3e307d[0x6][_0x558556(0x185)]&&_0x3e307d[0x0][_0x558556(0x185)]!=''){document['getElementById']('turno')['innerHTML']=_0x558556(0x17a)+_0x3e307d[0x0]['value'],Dall();const _0x1c47db=document['createElement'](_0x558556(0x18b));_0x1c47db[_0x558556(0x180)]=_0x558556(0x175),document[_0x558556(0x177)][_0x558556(0x17b)](_0x1c47db);}else{if(_0x3e307d[0x1][_0x558556(0x185)]==_0x3e307d[0x4][_0x558556(0x185)]&&_0x3e307d[0x4][_0x558556(0x185)]==_0x3e307d[0x7]['value']&&_0x3e307d[0x1][_0x558556(0x185)]!=''){document[_0x558556(0x17d)](_0x558556(0x188))[_0x558556(0x184)]=_0x558556(0x17a)+_0x3e307d[0x1][_0x558556(0x185)],Dall();const _0x40f16e=document['createElement'](_0x558556(0x18b));_0x40f16e[_0x558556(0x180)]=_0x558556(0x174),document[_0x558556(0x177)][_0x558556(0x17b)](_0x40f16e);}else{if(_0x3e307d[0x2]['value']==_0x3e307d[0x5][_0x558556(0x185)]&&_0x3e307d[0x5]['value']==_0x3e307d[0x8][_0x558556(0x185)]&&_0x3e307d[0x2]['value']!=''){document[_0x558556(0x17d)](_0x558556(0x188))[_0x558556(0x184)]=_0x558556(0x17a)+_0x3e307d[0x2][_0x558556(0x185)],Dall();const _0x155177=document[_0x558556(0x197)]('style');_0x155177['textContent']='td:nth-child(3)::after\x0a\x20\x20\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20content:\x20\x22\x22;\x20/*\x20Es\x20la\x20cadena\x20de\x20texto\x20en\x20blanco\x20para\x20utilizar\x20solo\x20el\x20fondo.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x20/*\x20Establece\x20que\x20es\x20lo\x20que\x20se\x20tomará\x20en\x20cuenta\x20a\x20la\x20hora\x20de\x20dibujar\x20la\x20línea.\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x2048%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#2c8cbc;\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20pointer-events:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}',document[_0x558556(0x177)][_0x558556(0x17b)](_0x155177);}else{if(_0x3e307d[0x0][_0x558556(0x185)]==_0x3e307d[0x4]['value']&&_0x3e307d[0x4]['value']==_0x3e307d[0x8]['value']&&_0x3e307d[0x0][_0x558556(0x185)]!=''){document[_0x558556(0x17d)](_0x558556(0x188))[_0x558556(0x184)]=_0x558556(0x17a)+_0x3e307d[0x0][_0x558556(0x185)],Dall();const _0x33a0ac=document['createElement'](_0x558556(0x18d));_0x33a0ac['classList'][_0x558556(0x173)](_0x558556(0x18c)),document[_0x558556(0x192)](_0x558556(0x181))[_0x558556(0x17c)][_0x558556(0x17b)](_0x33a0ac);}else{if(_0x3e307d[0x2][_0x558556(0x185)]==_0x3e307d[0x4][_0x558556(0x185)]&&_0x3e307d[0x4][_0x558556(0x185)]==_0x3e307d[0x6][_0x558556(0x185)]&&_0x3e307d[0x2][_0x558556(0x185)]!=''){document[_0x558556(0x17d)](_0x558556(0x188))['innerHTML']=_0x558556(0x17a)+_0x3e307d[0x2][_0x558556(0x185)],Dall();const _0x583695=document[_0x558556(0x197)](_0x558556(0x18d));_0x583695[_0x558556(0x18f)][_0x558556(0x173)]('line-diagonal-bottom-to-top'),document[_0x558556(0x192)]('td:nth-child(3)\x20>\x20input')[_0x558556(0x17c)][_0x558556(0x17b)](_0x583695);}}}}}}}}}function Dall(){const _0x3e64bd=_0x2393;var _0x34382e=document['querySelectorAll'](_0x3e64bd(0x189));for(let _0x4cc3b7=0x0;_0x4cc3b7<_0x34382e[_0x3e64bd(0x196)];_0x4cc3b7++){_0x34382e[_0x4cc3b7][_0x3e64bd(0x190)]=!![];}}
+var control = true;
+var contador = 0;
+
+function Chturn(boton) {
+    boton.disabled = true;
+
+    boton.value = control ? "O" : " ✕";
+
+    document.getElementById("turno").innerHTML = control ? "Turno ✕" : "Turno O";
+
+    control = !control;
+
+    Verificar();
+}
+
+function Verificar() {
+    if (++contador == 9) {
+        document.getElementById("turno").innerHTML = `Empate`;
+        return; // Termina la función si es un empate
+    }
+
+    var botones = document.querySelectorAll("input[type=button]");
+
+    if (botones[0].value == botones[1].value && botones[1].value == botones[2].value && botones[0].value != "") {
+        document.getElementById("turno").innerHTML = `Gana ${botones[0].value}`;
+        Dall();
+        const Style = document.createElement("style");
+        Style.textContent = `tr:nth-child(1)::after
+        {
+            content: ""; /* Es la cadena de texto en blanco para utilizar solo el fondo. */
+            position: absolute; /* Establece que es lo que se tomará en cuenta a la hora de dibujar la línea. */
+            top: 48%; /* Es a partir de donde se empieza a dibujar la línea sin tomar en cuenta el grososr. */ 
+            left: 0%; /* Es el porcentaje a partir del cual se dibujarpa la línea tomando en cuenta lo que miden 3 casillas por la izquierda.  */
+            right: 0%; /* Es el porcentaje que dejará sin dibujar desde la derecha,  */
+            height: 10px; /* Establece el grosor de la línea. */
+            background-color:  #2c8cbc ; /* Color de la línea. */
+            z-index: 1; /* Estable ce la línea por encima de los objetos. */
+            pointer-events: none; /* Para que la línea no interfiera con los botones. */
+        }`;
+        document.head.appendChild(Style);
+    }
+    else if (botones[3].value == botones[4].value && botones[4].value == botones[5].value && botones[3].value != "") {
+        document.getElementById("turno").innerHTML = `Gana ${botones[3].value}`;
+        Dall();
+        const Style = document.createElement("style");
+        Style.textContent = `tr:nth-child(2)::after
+    {            
+        content: ""; /* Es la cadena de texto en blanco para utilizar solo el fondo. */
+        position: absolute; /* Establece que es lo que se tomará en cuenta a la hora de dibujar la línea. */
+        top: 48%; /* Es a partir de donde se empieza a dibujar la línea sin tomar en cuenta el grososr. */ 
+        left: 0%; /* Es el porcentaje a partir del cual se dibujarpa la línea tomando en cuenta lo que miden 3 casillas por la izquierda.  */            right: 0%; /* Es el porcentaje que dejará sin dibujar desde la derecha,  */
+        height: 10px; /* Establece el grosor de la línea. */                background-color:  #2c8cbc ; /* Color de la línea. */
+        z-index: 1; /* Estable ce la línea por encima de los objetos. */
+        pointer-events: none; /* Para que la línea no interfiera con los botones. */
+    }`;
+        document.head.appendChild(Style);
+    }
+    else if (botones[6].value == botones[7].value && botones[7].value == botones[8].value && botones[6].value != "") {
+        document.getElementById("turno").innerHTML = `Gana ${botones[6].value}`;
+        Dall();
+        const Style = document.createElement("style");
+        Style.textContent = `tr:nth-child(3)::after
+    {
+        content: ""; /* Es la cadena de texto en blanco para utilizar solo el fondo. */
+        position: absolute; /* Establece que es lo que se tomará en cuenta a la hora de dibujar la línea. */
+        top: 48%; /* Es a partir de donde se empieza a dibujar la línea sin tomar en cuenta el grososr. */ 
+        left: 0%; /* Es el porcentaje a partir del cual se dibujarpa la línea tomando en cuenta lo que miden 3 casillas por la izquierda.  */            right: 0%; /* Es el porcentaje que dejará sin dibujar desde la derecha,  */
+        height: 10px; /* Establece el grosor de la línea. */                background-color:  #2c8cbc ; /* Color de la línea. */
+        z-index: 1; /* Estable ce la línea por encima de los objetos. */
+        pointer-events: none; /* Para que la línea no interfiera con los botones. */
+    }`;
+        document.head.appendChild(Style);
+    }
+    else if (botones[0].value == botones[3].value && botones[3].value == botones[6].value && botones[0].value != "") {
+        document.getElementById("turno").innerHTML = `Gana ${botones[0].value}`;
+        Dall();
+        const Style = document.createElement("style");
+        Style.textContent = `td:nth-child(1)::after
+    {
+        content: ""; /* Es la cadena de texto en blanco para utilizar solo el fondo. */
+        position: absolute; /* Establece que es lo que se tomará en cuenta a la hora de dibujar la línea. */
+        top: 0px;
+        bottom: 0px;
+        left: 48%;
+        width: 10px;
+        background-color: #2c8cbc;
+        z-index: 1;
+        pointer-events: none;
+    }`;
+        document.head.appendChild(Style);
+    }
+    else if (botones[1].value == botones[4].value && botones[4].value == botones[7].value && botones[1].value != "") {
+        document.getElementById("turno").innerHTML = `Gana ${botones[1].value}`;
+        Dall();
+        const Style = document.createElement("style");
+        Style.textContent = `td:nth-child(2)::after
+    {
+        content: ""; /* Es la cadena de texto en blanco para utilizar solo el fondo. */
+        position: absolute; /* Establece que es lo que se tomará en cuenta a la hora de dibujar la línea. */
+        top: 0px;
+        bottom: 0px;
+        left: 48%;
+        width: 10px;
+        background-color: #2c8cbc;
+        z-index: 1;
+        pointer-events: none;
+    }`;
+        document.head.appendChild(Style);
+    }
+    else if (botones[2].value == botones[5].value && botones[5].value == botones[8].value && botones[2].value != "") {
+        document.getElementById("turno").innerHTML = `Gana ${botones[2].value}`;
+        Dall();
+        const Style = document.createElement("style");
+        Style.textContent = `td:nth-child(3)::after
+        {
+            content: ""; /* Es la cadena de texto en blanco para utilizar solo el fondo. */
+            position: absolute; /* Establece que es lo que se tomará en cuenta a la hora de dibujar la línea. */
+            top: 0px;
+            bottom: 0px;
+            left: 48%;
+            width: 10px;
+            background-color: #2c8cbc;            
+            z-index: 1;
+            pointer-events: none;
+        }`;
+        document.head.appendChild(Style);
+    }
+    else if (botones[0].value == botones[4].value && botones[4].value == botones[8].value && botones[0].value != "") {
+        document.getElementById("turno").innerHTML = `Gana ${botones[0].value}`;
+        Dall();
+    
+        // Crear una línea diagonal de arriba a abajo
+        const line = document.createElement("div");
+        line.classList.add("line-diagonal-top-to-bottom");
+    
+        // Insertar la línea en la celda correspondiente
+        document.querySelector("td:nth-child(1) > input").parentNode.appendChild(line);
+    }
+    
+    else if (botones[2].value == botones[4].value && botones[4].value == botones[6].value && botones[2].value != "") {
+        document.getElementById("turno").innerHTML = `Gana ${botones[2].value}`;
+        Dall();
+    
+        // Crear una línea diagonal de abajo a arriba
+        const line = document.createElement("div");
+        line.classList.add("line-diagonal-bottom-to-top");
+    
+        // Insertar la línea en la celda correspondiente
+        document.querySelector("td:nth-child(3) > input").parentNode.appendChild(line);
+    }
+    
+}
+function Dall()
+{
+    var botones = document.querySelectorAll("input[type=button]");
+    for(let i = 0; i < botones.length; i++) {
+        botones[i].disabled=true;
+    }
+}

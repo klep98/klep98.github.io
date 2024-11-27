@@ -1,1 +1,70 @@
-var _0x461afa=_0x29af;(function(_0x11fc52,_0x37ed0f){var _0x182020=_0x29af,_0x53ceaa=_0x11fc52();while(!![]){try{var _0x3899c8=parseInt(_0x182020(0x138))/0x1+-parseInt(_0x182020(0x13f))/0x2*(-parseInt(_0x182020(0x12a))/0x3)+parseInt(_0x182020(0x120))/0x4*(parseInt(_0x182020(0x126))/0x5)+-parseInt(_0x182020(0x135))/0x6+-parseInt(_0x182020(0x13b))/0x7*(-parseInt(_0x182020(0x136))/0x8)+-parseInt(_0x182020(0x122))/0x9+-parseInt(_0x182020(0x124))/0xa*(parseInt(_0x182020(0x137))/0xb);if(_0x3899c8===_0x37ed0f)break;else _0x53ceaa['push'](_0x53ceaa['shift']());}catch(_0x50634f){_0x53ceaa['push'](_0x53ceaa['shift']());}}}(_0x21b8,0x5883f));function _0x29af(_0x417717,_0x1e522b){var _0x21b8d6=_0x21b8();return _0x29af=function(_0x29af08,_0x3fe686){_0x29af08=_0x29af08-0x120;var _0x2867dd=_0x21b8d6[_0x29af08];return _0x2867dd;},_0x29af(_0x417717,_0x1e522b);}var tarjetas=[_0x461afa(0x128),_0x461afa(0x128),_0x461afa(0x12c),_0x461afa(0x12c),'3.png',_0x461afa(0x132),_0x461afa(0x144),_0x461afa(0x144),_0x461afa(0x13c),_0x461afa(0x13c),_0x461afa(0x145),_0x461afa(0x145),_0x461afa(0x134),_0x461afa(0x134),_0x461afa(0x121),_0x461afa(0x121)],imagenTemporal,esperando=![],contador=0x0,cooldown=![];function cambiarImagen(_0x25afbe,_0x5d461b){var _0x4f843a=_0x461afa;if(cooldown)return;_0x25afbe[_0x4f843a(0x13e)]=_0x4f843a(0x12e)+tarjetas[_0x5d461b],_0x25afbe[_0x4f843a(0x13a)](_0x4f843a(0x143)),!esperando?imagenTemporal=_0x25afbe:imagenTemporal[_0x4f843a(0x13e)]==_0x25afbe[_0x4f843a(0x13e)]?setTimeout(function(){eliminarPar(imagenTemporal,_0x25afbe);},0x1f4):setTimeout(function(){Regresar(imagenTemporal,_0x25afbe);},0x1f4),esperando=!esperando,cooldown=!![],setTimeout(function(){cooldown=![];},0x3e8),console['log'](_0x4f843a(0x127)+tarjetas[_0x5d461b]);}function Regresar(_0x37465f,_0x1727c5){var _0x457fef=_0x461afa;_0x37465f[_0x457fef(0x13e)]=_0x457fef(0x129),_0x1727c5[_0x457fef(0x13e)]=_0x457fef(0x129),_0x37465f[_0x457fef(0x123)](_0x457fef(0x143),_0x457fef(0x142)+_0x37465f['id']+')'),_0x1727c5[_0x457fef(0x123)](_0x457fef(0x143),_0x457fef(0x142)+_0x1727c5['id']+')');}function eliminarPar(_0x3da5e5,_0x15676b){var _0x5c96d7=_0x461afa;_0x3da5e5[_0x5c96d7(0x13d)][_0x5c96d7(0x12b)]='hidden',_0x15676b[_0x5c96d7(0x13d)][_0x5c96d7(0x12b)]='hidden',_0x3da5e5[_0x5c96d7(0x13a)](_0x5c96d7(0x143)),_0x15676b[_0x5c96d7(0x13a)]('onclick'),contador++,contador!=0x8?document[_0x5c96d7(0x146)](_0x5c96d7(0x130))[_0x5c96d7(0x125)]=_0x5c96d7(0x140)+contador:document['getElementById']('contador')[_0x5c96d7(0x125)]=_0x5c96d7(0x140)+contador+_0x5c96d7(0x12d);}function Revolver(){var _0x3b8c4b=_0x461afa,_0x443c1e=0x0;for(let _0x536cbf=0xf;_0x536cbf>0x0;_0x536cbf--){_0x443c1e=Math['floor'](Math[_0x3b8c4b(0x141)]()*(_0x536cbf+0x1)),[tarjetas[_0x536cbf],tarjetas[_0x443c1e]]=[tarjetas[_0x443c1e],tarjetas[_0x536cbf]];}}function _0x21b8(){var _0x2428e6=['./img/','tabla','contador','reload','3.png','floor','7.png','3720480CIQjdV','494816muchfm','1063854TfFrAW','392345DqsAlp','backgroundImage','removeAttribute','21omHIJW','5.png','style','src','29442TuqdpF','Pares\x20Encontrados:\x20','random','cambiarImagen(this,','onclick','4.png','6.png','getElementById','2454836tqGkPa','8.png','4247046qJcrtW','setAttribute','20WrrfUK','innerHTML','5LisZTn','Cambiando\x20imagen\x20a:\x20./img/','1.png','./img/0.png','93rVxIGu','visibility','2.png','\x20¡Ganaste!'];_0x21b8=function(){return _0x2428e6;};return _0x21b8();}function Fondo(){var _0x196ea2=_0x461afa,_0x4df53a=Math[_0x196ea2(0x133)](Math['random']()*0x3)+0x1;document[_0x196ea2(0x146)](_0x196ea2(0x12f))[_0x196ea2(0x13d)][_0x196ea2(0x139)]='url(\x22./img/'+_0x4df53a+'.jpg\x22)';}function Reiniciar(){var _0x4dd66e=_0x461afa;location[_0x4dd66e(0x131)]();}
+var tarjetas = [
+    "1.png", "1.png","2.png", "2.png",
+    "3.png", "3.png","4.png", "4.png",
+    "5.png", "5.png","6.png", "6.png",
+    "7.png", "7.png","8.png", "8.png"
+];
+
+var imagenTemporal, esperando = false;
+var contador = 0;
+var cooldown = false; // Variable para el cooldown
+
+function cambiarImagen(imagen, indice){
+    if (cooldown) return; // Si está en cooldown, salir de la función
+
+    imagen.src = `./img/${tarjetas[indice]}`;
+    imagen.removeAttribute("onclick");
+
+    if (!esperando) {
+        imagenTemporal = imagen;
+    } else {
+        if (imagenTemporal.src == imagen.src) {
+            setTimeout(function() {eliminarPar(imagenTemporal, imagen);}, 500);
+        } else {
+            setTimeout(function() {Regresar(imagenTemporal, imagen);}, 500);
+        }
+    }
+    
+    esperando = !esperando;
+    cooldown = true; // Activar cooldown
+    setTimeout(function() { cooldown = false; }, 500); // Reiniciar cooldown después de 1 segundo
+
+    console.log(`Cambiando imagen a: ./img/${tarjetas[indice]}`);
+}
+
+function Regresar(imagen1, imagen2) {
+    imagen1.src = "./img/0.png";
+    imagen2.src = "./img/0.png";
+    imagen1.setAttribute("onclick", `cambiarImagen(this,${imagen1.id})`);
+    imagen2.setAttribute("onclick", `cambiarImagen(this,${imagen2.id})`);
+}
+
+function eliminarPar(imagen1, imagen2) {
+    imagen1.style.visibility = "hidden";
+    imagen2.style.visibility = "hidden";
+    imagen1.removeAttribute("onclick");
+    imagen2.removeAttribute("onclick");
+    contador++;
+    if (contador != 8) {
+        document.getElementById("contador").innerHTML = `Pares Encontrados: ${contador}`;
+    } else {
+        document.getElementById("contador").innerHTML = `Pares Encontrados: ${contador} ¡Ganaste!`;
+    }
+}
+
+function Revolver() {
+    var j = 0;
+    for (let i = 15; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        [tarjetas[i], tarjetas[j]] = [tarjetas[j], tarjetas[i]];
+    }
+}
+
+function Fondo() {
+    var fondo = Math.floor(Math.random() * 3) + 1;
+    document.getElementById("tabla").style.backgroundImage = `url("./img/${fondo}.jpg")`;
+}
+
+function Reiniciar() {
+    location.reload();
+}

@@ -1,1 +1,24 @@
-function _0x147e(_0x28e5b4,_0xe973f3){var _0x548fc4=_0x548f();return _0x147e=function(_0x147e1c,_0x4eefe3){_0x147e1c=_0x147e1c-0x1eb;var _0x1c3cea=_0x548fc4[_0x147e1c];return _0x1c3cea;},_0x147e(_0x28e5b4,_0xe973f3);}function _0x548f(){var _0x4eb5ba=['2039068QvsSis','1230594Pfsgmf','num1','getElementById','Existe\x20un\x20error\x20en\x20el\x20tipo\x20de\x20dato','2672043rDOCOq','innerHTML','1760424vNiVnm','810348RbPGaT','9647937IBtaom','33ybBJff','104bFkHrz','num2','Resultado:\x20La\x20cantidad\x20de\x20múltiplos\x20de\x20','10yAHgwp','103078rkPWgi','textoResultado','\x20son:\x20<br>\x20','\x20y\x20','value','160wMfCWs'];_0x548f=function(){return _0x4eb5ba;};return _0x548f();}(function(_0x439173,_0xf9f5c9){var _0x39acda=_0x147e,_0x2d2158=_0x439173();while(!![]){try{var _0x46ebf0=parseInt(_0x39acda(0x1f4))/0x1+parseInt(_0x39acda(0x1fc))/0x2*(parseInt(_0x39acda(0x1f7))/0x3)+-parseInt(_0x39acda(0x1ed))/0x4+-parseInt(_0x39acda(0x1fb))/0x5*(-parseInt(_0x39acda(0x1ee))/0x6)+-parseInt(_0x39acda(0x1f5))/0x7*(-parseInt(_0x39acda(0x1f8))/0x8)+parseInt(_0x39acda(0x1f6))/0x9+-parseInt(_0x39acda(0x1ec))/0xa*(parseInt(_0x39acda(0x1f2))/0xb);if(_0x46ebf0===_0xf9f5c9)break;else _0x2d2158['push'](_0x2d2158['shift']());}catch(_0x34a27c){_0x2d2158['push'](_0x2d2158['shift']());}}}(_0x548f,0xe0255));function multiplos3(){var _0x3b421a=_0x147e;if(!isNaN(document['getElementById']('num1')[_0x3b421a(0x1eb)])&&!isNaN(document['getElementById'](_0x3b421a(0x1f9))['value'])){var _0x29c56e=parseInt(document['getElementById'](_0x3b421a(0x1ef))[_0x3b421a(0x1eb)]),_0x5595f6=parseInt(document['getElementById'](_0x3b421a(0x1f9))['value']),_0x5af415=0x0;for(let _0x5ea38d=_0x29c56e;_0x5ea38d<=_0x5595f6;_0x5ea38d++){_0x5ea38d%0x3==0x0&&(_0x5af415+=0x1);}if(_0x29c56e!=_0x5595f6)for(let _0x3a2dce=_0x29c56e;_0x3a2dce>=_0x5595f6;_0x3a2dce--){_0x3a2dce%0x3==0x0&&(_0x5af415+=0x1);}document['getElementById'](_0x3b421a(0x1fd))[_0x3b421a(0x1f3)]=_0x3b421a(0x1fa)+_0x29c56e+_0x3b421a(0x1ff)+_0x5595f6+_0x3b421a(0x1fe)+_0x5af415;}else document[_0x3b421a(0x1f0)](_0x3b421a(0x1fd))[_0x3b421a(0x1f3)]=_0x3b421a(0x1f1);}
+function multiplos3() {
+    if(!isNaN(document.getElementById("num1").value) && !isNaN(document.getElementById("num2").value)){
+        var a = parseInt(document.getElementById("num1").value);
+        var b = parseInt(document.getElementById("num2").value);
+        var multiplos = 0;
+
+        for (let i = a; i <= b; i++) {
+            if (i % 3 == 0) {
+                multiplos += 1;
+            }
+        }
+
+        if(a!=b){
+            for (let i = a; i >= b; i--) {
+                if (i % 3 == 0) {
+                    multiplos += 1;
+                }
+            }
+        }
+        document.getElementById("textoResultado").innerHTML = `Resultado: La cantidad de múltiplos de ${a} y ${b} son: <br> ${multiplos}`;
+    } else{
+        document.getElementById("textoResultado").innerHTML = `Existe un error en el tipo de dato`;
+    }
+}

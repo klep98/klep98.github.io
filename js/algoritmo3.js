@@ -1,1 +1,16 @@
-(function(_0x5aea2b,_0x54e504){var _0xdce48e=_0x318f,_0x2c871b=_0x5aea2b();while(!![]){try{var _0xa5c65f=parseInt(_0xdce48e(0x129))/0x1*(parseInt(_0xdce48e(0x128))/0x2)+parseInt(_0xdce48e(0x130))/0x3*(-parseInt(_0xdce48e(0x12e))/0x4)+-parseInt(_0xdce48e(0x12c))/0x5*(-parseInt(_0xdce48e(0x121))/0x6)+-parseInt(_0xdce48e(0x133))/0x7*(parseInt(_0xdce48e(0x12d))/0x8)+-parseInt(_0xdce48e(0x123))/0x9*(parseInt(_0xdce48e(0x127))/0xa)+parseInt(_0xdce48e(0x122))/0xb+parseInt(_0xdce48e(0x12f))/0xc;if(_0xa5c65f===_0x54e504)break;else _0x2c871b['push'](_0x2c871b['shift']());}catch(_0x11ab2d){_0x2c871b['push'](_0x2c871b['shift']());}}}(_0xe195,0xd7d80));function _0x318f(_0x1ddb9b,_0x461d0b){var _0xe19590=_0xe195();return _0x318f=function(_0x318f8d,_0x5aa313){_0x318f8d=_0x318f8d-0x121;var _0x2816be=_0xe19590[_0x318f8d];return _0x2816be;},_0x318f(_0x1ddb9b,_0x461d0b);}function _0xe195(){var _0x3b7440=['5EBnmAk','2032BMuxDK','8AgWvCt','20065140couxTg','1128711ombKKE','getElementById','innerHTML','23429gdUEfU','3382842ynaApa','5750052fHaIUd','117flrUYs','value','resultado','Resultado\x20<br>','1228110MRzrtN','14GCifkQ','189231gGbZmQ','nat','Existe\x20un\x20error\x20en\x20el\x20tipo\x20de\x20dato,\x20el\x20número\x20es\x20negativo\x20y/o\x20tiene\x20que\x20ser\x20mayor\x20a\x201'];_0xe195=function(){return _0x3b7440;};return _0xe195();}function cubo(){var _0x15e820=_0x318f,_0x4c66a7=parseInt(document[_0x15e820(0x131)]('nat')[_0x15e820(0x124)]),_0x138b3a=_0x15e820(0x126);if(!isNaN(document[_0x15e820(0x131)](_0x15e820(0x12a))[_0x15e820(0x124)])&&_0x4c66a7>0x1){for(let _0x3449d6=0x2;_0x3449d6<=_0x4c66a7;_0x3449d6++){_0x3449d6%0x2==0x0&&(_0x138b3a+=_0x3449d6+'\x20al\x20cubo\x20es:\x20'+_0x3449d6*_0x3449d6*_0x3449d6+'\x20<br>');}document[_0x15e820(0x131)]('resultado')[_0x15e820(0x132)]=_0x138b3a;}else document[_0x15e820(0x131)](_0x15e820(0x125))['innerHTML']=_0x15e820(0x12b);}
+function cubo() {
+    var naturales = parseInt(document.getElementById("nat").value);
+    var resultado = "Resultado: <br>";
+    if(!isNaN(document.getElementById("nat").value) && naturales > 1){
+        for (let i = 2; i <= naturales; i++) {
+            if (i % 2 == 0) {
+                resultado += `${i} al cubo es: ${i*i*i} <br>`
+            }
+            
+            
+        }
+        document.getElementById("resultado").innerHTML = resultado;
+    }else{
+        document.getElementById("resultado").innerHTML = `Existe un error en el tipo de dato, el número es negativo y/o tiene que ser mayor a 1`;
+    }
+}

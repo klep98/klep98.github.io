@@ -1,1 +1,40 @@
-(function(_0x46d4d1,_0x4bb312){var _0x2c19b9=_0x4e19,_0x5f4d65=_0x46d4d1();while(!![]){try{var _0x4ed3da=parseInt(_0x2c19b9(0x99))/0x1*(-parseInt(_0x2c19b9(0x92))/0x2)+-parseInt(_0x2c19b9(0xa5))/0x3*(-parseInt(_0x2c19b9(0x9b))/0x4)+-parseInt(_0x2c19b9(0x97))/0x5+parseInt(_0x2c19b9(0xa0))/0x6+-parseInt(_0x2c19b9(0x9d))/0x7*(parseInt(_0x2c19b9(0x98))/0x8)+parseInt(_0x2c19b9(0x93))/0x9*(parseInt(_0x2c19b9(0x9c))/0xa)+-parseInt(_0x2c19b9(0xa4))/0xb*(-parseInt(_0x2c19b9(0x8c))/0xc);if(_0x4ed3da===_0x4bb312)break;else _0x5f4d65['push'](_0x5f4d65['shift']());}catch(_0x141e12){_0x5f4d65['push'](_0x5f4d65['shift']());}}}(_0x1d63,0x1ebc7));var elemento=0x0;function _0x1d63(){var _0x3c1088=['Capture\x20el\x20elemento\x20[','12EIzXZo','random','focus','insertRow','renglon1','getElementById','294330KBNbAi','18KgSUVR','value','disabled','renglon2','689695TrJqdQ','32bzVBcH','1ziHgMT','insertCell','156868SBCcTO','51190yPgMht','138089GrAfIb','arreglo','innerHTML','1041414AZoNBP','dato','tablaVertical','floor','2935713DVwfum','3aLkiWv','agarrar'];_0x1d63=function(){return _0x3c1088;};return _0x1d63();}function _0x4e19(_0x37b1a4,_0x19f73c){var _0x1d63ee=_0x1d63();return _0x4e19=function(_0x4e198e,_0x106253){_0x4e198e=_0x4e198e-0x8a;var _0x8c5405=_0x1d63ee[_0x4e198e];return _0x8c5405;},_0x4e19(_0x37b1a4,_0x19f73c);}function Capturar(){var _0x1b07c9=_0x4e19,_0x487051=document[_0x1b07c9(0x91)](_0x1b07c9(0x90)),_0x546199=_0x487051[_0x1b07c9(0x9a)](-0x1);_0x546199['innerHTML']='['+elemento+']';var _0x24f1fa=document[_0x1b07c9(0x91)](_0x1b07c9(0x96)),_0x2f8a46=_0x24f1fa['insertCell'](-0x1);_0x2f8a46[_0x1b07c9(0x9f)]=document[_0x1b07c9(0x91)](_0x1b07c9(0xa1))[_0x1b07c9(0x94)];var _0x21031c=document[_0x1b07c9(0x91)](_0x1b07c9(0xa2)),_0x55bbdb=_0x21031c[_0x1b07c9(0x8f)](-0x1),_0x3cd2cc=_0x55bbdb[_0x1b07c9(0x9a)](0x0),_0x2a0966=_0x55bbdb[_0x1b07c9(0x9a)](0x0);_0x2a0966[_0x1b07c9(0x9f)]='['+elemento+']',_0x3cd2cc['innerHTML']=document[_0x1b07c9(0x91)](_0x1b07c9(0xa1))['value'],document[_0x1b07c9(0x91)]('dato')[_0x1b07c9(0x8e)](),document[_0x1b07c9(0x91)](_0x1b07c9(0xa1))[_0x1b07c9(0x94)]=Math[_0x1b07c9(0xa3)](Math[_0x1b07c9(0x8d)]()*0x3e8),console['log'](document[_0x1b07c9(0x91)](_0x1b07c9(0xa1))['value']),++elemento,elemento>0x9&&(document[_0x1b07c9(0x91)]('dato')[_0x1b07c9(0x95)]=!![],document[_0x1b07c9(0x91)]('agarrar')[_0x1b07c9(0x95)]=!![]);}function Reiniciar(){var _0x160722=_0x4e19;elemento=0x0,valor=0x0,valor2=0x0,valorVertical=0x0,document[_0x160722(0x91)](_0x160722(0x9e))['innerHTML']=_0x160722(0x8b)+elemento+']',document[_0x160722(0x91)](_0x160722(0xa1))[_0x160722(0x95)]=![],document[_0x160722(0x91)](_0x160722(0x8a))[_0x160722(0x95)]=![],document['getElementById'](_0x160722(0x90))[_0x160722(0x9f)]='',document[_0x160722(0x91)](_0x160722(0x96))[_0x160722(0x9f)]='',document['getElementById'](_0x160722(0xa2))[_0x160722(0x9f)]='';}
+var elemento = 0;
+function Capturar() {
+    //Agregamos elementos de forma horizontal
+    var row = document.getElementById("renglon1");
+    var valor = row.insertCell(-1);
+    valor.innerHTML = `[${elemento}]`
+    //Asignamos el valor al elemento
+    var row2 = document.getElementById("renglon2");
+    var valor2 = row2.insertCell(-1);
+    valor2.innerHTML = document.getElementById("dato").value;
+
+    //Agregamos los elementos de forma vertical
+    var columna = document.getElementById("tablaVertical");
+    var renglonVertical = columna.insertRow(-1);
+    var valorVertical = renglonVertical.insertCell(0);
+    var valorVer2 = renglonVertical.insertCell(0);
+    valorVer2.innerHTML = `[${elemento}]`
+    valorVertical.innerHTML = document.getElementById("dato").value;
+    document.getElementById("dato").focus();
+    document.getElementById("dato").value = Math.floor(Math.random()*1000);
+    console.log(document.getElementById("dato").value);
+    ++elemento;
+    if (elemento > 9) {
+        document.getElementById("dato").disabled = true;
+        document.getElementById("agarrar").disabled = true;
+    }
+
+}
+function Reiniciar() {
+    elemento = 0;
+    valor = 0;
+    valor2 = 0;
+    valorVertical = 0;
+    document.getElementById("arreglo").innerHTML = `Capture el elemento [${elemento}]`;
+    document.getElementById("dato").disabled = false;
+    document.getElementById("agarrar").disabled = false;
+    document.getElementById("renglon1").innerHTML = "";
+    document.getElementById("renglon2").innerHTML = "";
+    document.getElementById("tablaVertical").innerHTML = "";
+}

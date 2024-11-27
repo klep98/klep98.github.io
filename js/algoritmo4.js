@@ -1,1 +1,25 @@
-(function(_0x9e1ad6,_0x3a15b7){var _0x7ec679=_0x2efb,_0xe67b9c=_0x9e1ad6();while(!![]){try{var _0x1a8643=parseInt(_0x7ec679(0xfe))/0x1*(parseInt(_0x7ec679(0xf1))/0x2)+parseInt(_0x7ec679(0xf2))/0x3*(-parseInt(_0x7ec679(0xf8))/0x4)+parseInt(_0x7ec679(0xf5))/0x5+-parseInt(_0x7ec679(0xf9))/0x6*(-parseInt(_0x7ec679(0xf7))/0x7)+parseInt(_0x7ec679(0xfa))/0x8*(-parseInt(_0x7ec679(0x102))/0x9)+parseInt(_0x7ec679(0xf0))/0xa+-parseInt(_0x7ec679(0xf3))/0xb*(-parseInt(_0x7ec679(0xfb))/0xc);if(_0x1a8643===_0x3a15b7)break;else _0xe67b9c['push'](_0xe67b9c['shift']());}catch(_0x20dc4c){_0xe67b9c['push'](_0xe67b9c['shift']());}}}(_0x7e2d,0xf3a19));function _0x2efb(_0xf8932c,_0x5c068e){var _0x7e2d2d=_0x7e2d();return _0x2efb=function(_0x2efbf1,_0x2f83b2){_0x2efbf1=_0x2efbf1-0xf0;var _0x1f049c=_0x7e2d2d[_0x2efbf1];return _0x1f049c;},_0x2efb(_0xf8932c,_0x5c068e);}function fibonacci(){var _0x4e912b=_0x2efb,_0x406e64=parseInt(document['getElementById'](_0x4e912b(0x101))[_0x4e912b(0x100)]),_0x304bba=0x0,_0x13477b=0x1;console[_0x4e912b(0xff)]('0\x201');var _0x48b0f5=_0x4e912b(0xfd);while(_0x304bba+_0x13477b<=_0x406e64){var _0x6a00f4=_0x304bba+_0x13477b;_0x48b0f5+=_0x6a00f4+'\x20',_0x304bba=_0x13477b,_0x13477b=_0x6a00f4;}document[_0x4e912b(0xf6)](_0x4e912b(0xfc))[_0x4e912b(0xf4)]=_0x48b0f5;}function _0x7e2d(){var _0x504768=['1386440TIDzYh','2IhtJRq','3xjZVsz','165OfiKEX','innerText','562140zTCfgf','getElementById','231rsckSs','4524140vrXVWk','171516fGDKgQ','24bYSmcQ','1287432kTvVAh','resultado','0\x201\x20','824729tIkjvM','log','value','limite','4498443NbVaAu'];_0x7e2d=function(){return _0x504768;};return _0x7e2d();}
+function fibonacci() {
+
+    // Obtiene el límite introducido por el usuario.
+    var limite = parseInt(document.getElementById("limite").value);
+
+    // Inicializa las dos primeras variables de la secuencia de Fibonacci.
+    var num1 = 0;
+    var num2 = 1;
+
+    // Imprime los dos primeros numeros de la secuencia.
+    console.log("0 1")
+
+    // Variable para almacenar la secuencia de Fibonacci.
+    var resultado = "0 1 ";
+
+    while (num1 + num2 <= limite) {
+        var i = num1 + num2;
+        resultado += i + " ";
+        num1 = num2;
+        num2 = i;
+    }
+
+    // Muestra el resultado en el elemento con id "resultado".
+    document.getElementById("resultado").innerText = resultado;
+}
