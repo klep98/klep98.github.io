@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../../style/arreglo1.css">
+    <title>Arreglo 1</title>
+    <script src="./../../js/arreglo1.js"></script>
+</head>
+<body onload="aleatorios()">
+    <div class="container">
+        <p><a class="btn-back" href="../../index.html">Regresar al menú</a></p>
+
+        <h1>Arreglo 1</h1>
+        <h4>Capture e imprima un arreglo de 10 elementos de tipo entero. El arreglo se debe imprimir de forma horizontal y
+            vertical. Muestre el índice de cada elemento. La captura de elementos se debe cancelar al introducir el último elemento.
+            Incluya un botón de reinicio.</h4>
+
+            <form action="javascript:Capturar()">
+                <p style="display: inline;" id="arreglo"> Capture el elemento [0]</p> 
+                <input type="number" id="dato" required onkeydown="if(event.key==='.'){event.preventDefault();}"> 
+                <br><br>
+                <input type="submit" class="btn" value="Capturar" id="agarrar"> 
+                <input type="button" class="btn" value="Reiniciar" onclick="Reiniciar()">
+            </form>
+        <br>
+
+        <table id="tablaHorizontal">
+            <tr id="renglon1"></tr>
+            <tr id="renglon2"></tr>
+        </table>
+        <br><br>
+
+        <table id="tablaVertical">
+            <tr><td id="columna1"></td></tr>
+        </table>
+        <p id="error"></p>
+    </div>
+</body>
+</html>

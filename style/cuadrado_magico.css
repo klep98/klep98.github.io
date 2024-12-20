@@ -1,0 +1,150 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Establecer la fuente */
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+.container {
+    max-width: 2000px; /* Ancho máximo para centrar el contenido */
+    margin: 10px auto; /* Margen automático para centrar */
+    padding: 10px; /* Relleno interno */
+}
+
+table {
+    border-collapse: collapse; /* Colapsar bordes */
+    background-color: black; /* Fondo negro para la tabla */
+}
+
+tr {
+    background-color: black; /* Asegura que las filas sean negras */
+}
+
+td {
+    border: 1px solid white; /* Bordes blancos */
+    padding: 5px; /* Espaciado interno */
+    text-align: center; /* Centrar contenido */
+    background-color: black; /* Asegura que las celdas sean negras */
+}
+
+/* Estilo para el input de tipo number (con flechas de incremento/decremento) */
+input[type="number"] {
+    background-color: #333; /* Fondo oscuro para el input */
+    color: white; /* Texto blanco */
+    border: 1px solid #555; /* Bordes suaves y oscuros */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 8px 12px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    width: 130px; /* Ancho fijo */
+}
+
+/* Estilo cuando el input de tipo number está enfocado (focus) */
+input[type="number"]:focus {
+    border-color: rgb(252, 188, 29); /* Borde amarillo cuando está enfocado */
+    box-shadow: 0 0 5px rgb(252, 188, 29); /* Sombra sutil en amarillo */
+}
+
+/* Estilos específicos para las flechas (spinners) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Eliminar la apariencia predeterminada */
+    margin: 0; /* Eliminar márgenes */
+}
+
+input[type="button"] {
+    font-size: larger; /* Tamaño de fuente mayor */
+    background-color: rgb(252, 188, 29); /* Color de fondo */
+    color: black; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+input[type="button"]:hover {
+    background-color: black; /* Efecto hover */
+    color: white; /* Cambia el texto a blanco al pasar el mouse */
+}
+
+/* Para el enlace */
+a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+    position: absolute; /* Coloca el enlace en la parte superior */
+    top: 20px; /* Espacio desde la parte superior */
+    left: 20px; /* Espacio desde la izquierda */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+#verificar {
+    margin-top: 20px; /* Espacio superior */
+    color: rgb(252, 188, 29); /* Color del mensaje */
+}
+
+
+/* Estilos para los botones */
+.btn {
+    margin: 10px 0; 
+    background-color: rgb(252, 188, 29); /* Color inicial (amarillo) */
+    color: black; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    text-decoration: none; /* Sin subrayado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s, color 0.3s, transform 0.1s; /* Efecto de transición */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Efecto hover */
+.btn:hover {
+    background-color: black; /* Fondo negro al pasar el ratón */
+    color: white; /* Texto blanco */
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño */
+}
+
+/* Efecto al hacer clic */
+.btn:active {
+    transform: scale(1); /* Vuelve al tamaño original al hacer clic */
+}
+
+/* Para los botones tipo <a> con la clase .btn */
+a.btn {
+    display: inline-block; /* Asegura que el enlace se comporte como un bloque para estilizarlo como un botón */
+}
+
+/* Enlace "Regresar al menú" sin botón, solo texto */
+.btn-back {
+    color: white; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    position: absolute; /* Coloca el enlace en la parte superior */
+    top: 20px; /* Espacio desde la parte superior */
+    left: 20px; /* Espacio desde la izquierda */
+}
+
+.btn-back:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+/* Estilo para los select */
+select {
+    background-color: #333; /* Fondo oscuro para los select */
+    color: white; /* Texto blanco */
+    border: 1px solid #555; /* Bordes suaves y oscuros */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 8px 12px; /* Espaciado interior más cómodo */
+    font-size: 16px; /* Fuente legible */
+    width: 130px; /* Ancho fijo para todos los select */
+}
+
+/* Estilo cuando los select están enfocados (focus) */
+select:focus {
+    border-color: rgb(252, 188, 29); /* Borde amarillo cuando está enfocado */
+    box-shadow: 0 0 5px rgb(252, 188, 29); /* Sombra sutil en amarillo */
+}

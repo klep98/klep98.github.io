@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../../style/tictactoe.css">
+    <title>Tic-Tac-Toe</title>
+    <script src="./../../js/tictactoe.js"></script>
+</head>
+<body>
+    <a class="btn-back" href="./../../index.html">Regresar al menú</a>
+
+    <br>
+    <br>
+
+    <div class="titulo-container">
+        <h1>Actividad 4 - Tic-Tac-Toe</h1>
+        <h4>Cada jugador solo debe colocar su símbolo una vez por turno y no debe ser sobre una casilla ya jugada. 
+            En caso de que el jugador haga trampa el ganador será el otro. 
+            Se debe conseguir realizar una línea recta o diagonal por símbolo.</h4>
+    </div>
+    
+    <table class="tabla-container">
+        <tr>
+            <td><input type="button" class="game-button" value="" onclick="Chturn(this);"></td>
+            <td><input type="button" class="game-button" value="" onclick="Chturn(this);"></td>
+            <td><input type="button" class="game-button" value="" onclick="Chturn(this);"></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="game-button" value="" onclick="Chturn(this);"></td>
+            <td><input type="button" class="game-button" value="" onclick="Chturn(this);"></td>
+            <td><input type="button" class="game-button" value="" onclick="Chturn(this);"></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="game-button" value="" onclick="Chturn(this);"></td>
+            <td><input type="button" class="game-button" value="" onclick="Chturn(this);"></td>
+            <td><input type="button" class="game-button" value="" onclick="Chturn(this);"></td>
+        </tr>
+    </table>
+
+    <h1 id="turno">Turno O</h1>
+    <div class="reiniciar-container">
+        <input type="submit" class="btn btn-primary" value="Reiniciar" onclick="location.reload();">
+    </div>  
+    <br>
+</body>
+</html>

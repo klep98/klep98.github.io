@@ -1,0 +1,261 @@
+/* Ajustar el desplazamiento al hacer scroll */
+html {
+    scroll-padding-top: 70px; /* Ajuste para todas las secciones */
+}
+
+/* Establecer el estilo general del cuerpo */
+body {
+    font-family: 'Montserrat', sans-serif; /* Usar la fuente Montserrat */
+    margin: 0; /* Eliminar márgenes por defecto */
+    padding: 0; /* Eliminar padding por defecto */
+    scroll-behavior: smooth; /* Activar el scroll suave */
+    background-color: #191919; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: transparent; /* Fondo inicial transparente */
+    color: rgb(252, 188, 29); /* Color de texto amarillo */
+    position: fixed; /* Barra fija en la parte superior */
+    width: 100%; /* Barra ocupa todo el ancho */
+    z-index: 1000; /* Asegura que se muestre por encima de otros elementos */
+    transition: background-color 0.3s ease-in-out; /* Transición suave para el cambio de fondo */
+}
+
+/* Cuando la barra de navegación tiene fondo sólido */
+.navbar-solid {
+    background-color: #191919 !important; /* Fondo oscuro cuando se hace scroll */
+}
+
+/* Estilo para el enlace de la marca (logo) */
+.navbar .navbar-brand {
+    color: rgb(252, 188, 29) !important; /* Color amarillo para el nombre */
+    font-weight: bold; /* Fuente en negrita */
+}
+
+/* Asegura que el título "Caleb Romo" se mantenga amarillo */
+.navbar .navbar-brand:hover {
+    color: rgb(252, 188, 29) !important; /* Mantener el color amarillo al pasar el ratón */
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white; /* Enlaces en blanco */
+    text-decoration: none; /* Eliminar subrayado */
+    padding: 10px 20px; /* Espaciado en los enlaces */
+    transition: color 0.3s ease; /* Transición suave de color */
+}
+
+/* Efecto hover sobre los enlaces */
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(252, 188, 29); /* Color amarillo al pasar el ratón */
+}
+
+/* Efecto de enlace activo (cuando se hace clic) */
+.navbar .navbar-nav .nav-item .nav-link:active,
+.navbar .navbar-nav .nav-item .nav-link:focus {
+    color: rgb(252, 188, 29); /* Color amarillo al hacer clic */
+}
+
+/* Estilos para la hero (imagen de fondo principal) */
+.hero {
+    background-image: url('./../img/peñasco.jpeg'); /* Imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda el área */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex; /* Usamos flexbox para centrar contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto al centro */
+    position: relative; /* Posiciona los elementos dentro de la sección */
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo de la imagen en el hero (foto redonda) */
+.hero img {
+    max-width: 250px; /* Ancho máximo de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 50%; /* Imagen redonda */
+    border: 8px solid white; /* Borde blanco */
+}
+
+/* Estilos para el título del hero */
+.hero h1 {
+    margin-top: 10px; /* Espacio superior */
+    font-size: 6em; /* Título grande */
+}
+
+/* Subtítulo en el hero */
+.hero h2 {
+    font-size: 1.75rem; /* Tamaño de fuente más pequeño */
+    font-weight: 700; /* Fuente en negrita */
+    font-style: italic; /* Estilo en cursiva */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 70px 20px 40px; /* Espaciado de la sección (top, izquierda/derecha, bottom) */
+    background: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    margin-bottom: 20px; /* Espacio inferior entre secciones */
+}
+
+/* Ajuste específico para la sección de Materias */
+#subject {
+    padding-top: 100px; /* Ajuste para no superponer la navbar */
+}
+
+/* Títulos dentro de las secciones */
+h1, h2, h4 {
+    font-weight: 600; /* Fuente en negrita */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #444; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Alineación centrada */
+    padding: 20px 0; /* Espaciado interno */
+}
+
+/* Estilos de los botones */
+.btn {
+    margin: 10px 0; /* Espaciado superior e inferior */
+    background-color: rgb(252, 188, 29); /* Fondo amarillo */
+    color: black; /* Texto negro */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    text-decoration: none; /* Eliminar subrayado */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s, transform 0.1s; /* Transiciones suaves */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Eliminar el borde azul de los botones y enlaces al hacer clic */
+.btn:focus,
+.nav-link:focus,
+button:focus {
+    outline: none !important; /* Eliminar el borde predeterminado */
+    box-shadow: none !important; /* Eliminar cualquier sombra */
+}
+
+/* Efecto hover sobre los botones */
+.btn:hover {
+    background-color: rgb(252, 188, 29); /* Fondo amarillo */
+    color: black; /* Texto negro */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+    transform: scale(1.05); /* Aumento del tamaño */
+}
+
+/* Efecto al hacer clic en los botones */
+.btn:active {
+    transform: scale(1); /* Vuelve al tamaño original al hacer clic */
+}
+
+/* Enlace "Regresar al menú" sin botón, solo texto */
+.btn-back {
+    color: white; /* Color blanco */
+    text-decoration: none; /* Sin subrayado */
+    position: absolute; /* Colocarlo en la parte superior */
+    top: 20px; /* Espaciado desde arriba */
+    left: 20px; /* Espaciado desde la izquierda */
+}
+
+/* Efecto hover sobre el enlace "Regresar al menú" */
+.btn-back:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Estilo para el menú desplegable móvil */
+.collapse.show {
+    display: block !important; /* Asegura que el menú móvil se muestre */
+}
+
+/* Estilo para la selección de texto */
+::selection {
+    background: rgb(252, 188, 29); /* Fondo amarillo cuando se selecciona texto */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo para la selección en Firefox */
+::-moz-selection { 
+    background: rgb(252, 188, 29); /* Fondo amarillo */
+    color: white; /* Texto blanco */
+}
+
+#contact {
+    position: relative;
+    background-image: url('./../img/contact_me.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Negro con 40% de opacidad */
+    z-index: 1;
+}
+
+#contact .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background-color: rgb(252, 188, 29);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.dropdown-toggle:hover {
+    background-color: rgb(252, 188, 29);
+}
+
+.dropdown-menu {
+    display: none; /* El menú está oculto por defecto */
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-menu a {
+    color: #007bff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mostrar el menú cuando se activa */
+.dropdown.show .dropdown-menu {
+    display: block;
+}
